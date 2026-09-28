@@ -4,19 +4,18 @@ Sito Quarto con cinque pagine: Home, Calendario, Lezioni, Dispensa ed Esame.
 
 ## Pubblicazione su GitHub
 
-1. Apri la repository `semiotica2026unipd/semiotica2026unipd.github.io`.
-2. In **Settings → Pages → Build and deployment → Source**, scegli **GitHub Actions**.
-3. In **Code → Add file → Upload files**, carica il contenuto della cartella `sito` del pacchetto, compresa `.github`. Non caricare lo ZIP, la cartella contenitore, `anteprima` o `immagini`.
-4. Su Mac, **Cmd + Maiusc + punto** mostra la cartella nascosta `.github`.
-5. Premi **Commit changes**. La scheda **Actions** mostra l'avanzamento di “Pubblica il sito”. Quando è concluso, il sito è disponibile su https://semiotica2026unipd.github.io/.
+1. In **Settings → Pages → Build and deployment → Source**, seleziona **GitHub Actions**. La pubblicazione da un branch con Jekyll non genera le pagine dai sorgenti Quarto.
+2. Assicurati che su `main` sia presente `.github/workflows/publish.yml`, insieme ai sorgenti e alle risorse del sito.
+3. Ogni push su `main` avvia **Actions → Pubblica il sito**. Per avviare la prima pubblicazione dopo il cambio di Source, oppure ripeterla senza nuovi commit, usa **Run workflow** sul branch `main`.
+4. Il workflow usa Quarto **1.10.18**, esegue `quarto render` (compreso il ricalcolo del calendario), verifica la presenza dei cinque HTML e pubblica il contenuto di `_site/` su https://semiotica2026unipd.github.io/.
 
-Se `.github` non viene caricata, usa **Add file → Create new file**, inserisci come nome `.github/workflows/publish.yml` e incolla il contenuto del file omonimo del pacchetto.
+`_quarto.yml` elenca già tutte e cinque le pagine. Non occorre generare o caricare manualmente gli HTML nella radice: quelli già presenti non sono la fonte della pubblicazione con questo workflow. Modifica i sorgenti indicati sotto; `_site/` viene generata durante ogni esecuzione e non deve essere aggiunta alla repository.
 
 Questo pacchetto sostituisce la precedente versione con menu orizzontale. Se l'avevi caricata, sovrascrivi i file con lo stesso nome; `programma.qmd`, `materiali.qmd` e `presentazioni.qmd` non fanno più parte del sito e possono essere eliminati.
 
 ## Modificare i contenuti
 
-Apri il file su GitHub, premi la matita, modifica il testo e premi **Commit changes**. Il sito viene rigenerato e pubblicato automaticamente.
+Apri il file su GitHub, premi la matita, modifica il testo e premi **Commit changes**. Con GitHub Pages configurato come sopra, ogni modifica su `main` rigenera e pubblica automaticamente tutte e cinque le pagine.
 
 | Contenuto | File da modificare |
 |---|---|
@@ -52,6 +51,6 @@ I tredici PDF derivano dal file fornito dal docente: introduzione, capitoli 1–
 
 Apri `anteprima/index.html` nel pacchetto estratto. È la versione già generata con Quarto; i file da modificare e caricare sono quelli della cartella `sito`.
 
-Per lavorare localmente, se Quarto è installato: `quarto preview` per l'anteprima e `quarto render` per rigenerare il sito. Python 3 serve a ricalcolare la tabella; su GitHub Actions è già disponibile.
+Per lavorare localmente con la stessa versione usata dal workflow, installa Quarto 1.10.18: `quarto preview` per l'anteprima e `quarto render` per rigenerare il sito. Python 3 serve a ricalcolare la tabella; su GitHub Actions è già disponibile.
 
 I caratteri Open Sans e Noto Emoji sono distribuiti con le rispettive licenze nella cartella `assets`.
