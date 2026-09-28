@@ -1,0 +1,19 @@
+---
+title: "Dispensa"
+---
+
+::: {.chapters}
+- [Introduzione](dispensa/introduzione.pdf)
+- [1. L'utilità della comprensione dell'istinto comunicativo: il caso delle presupposizioni](dispensa/capitolo-01.pdf)
+- [2. Le branche della linguistica: fonetica, fonologia, morfologia e sintassi](dispensa/capitolo-02.pdf)
+- [3. Le branche della linguistica: semantica](dispensa/capitolo-03.pdf)
+- [4. Le branche della linguistica: pragmatica](dispensa/capitolo-04.pdf)
+- [5. Approfondimento su Logic and Conversation di Grice](dispensa/capitolo-05.pdf)
+- [6. Domande, domande implicite e massima di Relazione](dispensa/capitolo-06.pdf)
+- [7. Comunicazione animale: focus sulla pragmatica nelle scimmie di Campbell (tratto da Schlenker, What it all means)](dispensa/capitolo-07.pdf)
+- [8. Il significato della musica (da Schlenker, What it all means)](dispensa/capitolo-08.pdf)
+- [9. Sociolinguistica](dispensa/capitolo-09.pdf)
+- [10. Approfondimento di sociolinguistica: i primi lavori di Labov](dispensa/capitolo-10.pdf)
+- [11. Semiotica del testo e analisi testuale (citato, adattato e/o rielaborato da materiali del Prof. Giuseppe Spolaore, corso di Semiotica e teoria della comunicazione 2024/2025)](dispensa/capitolo-11.pdf)
+- [Riferimenti bibliografici](dispensa/bibliografia.pdf)
+:::

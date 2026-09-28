@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/OpenSans.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Course Emoji";
+  src: url("assets/emoji.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+body { background: #fff; }
+#quarto-sidebar { padding: 1.8rem 1.2rem; border-right: 0; }
+.sidebar-logo { width: 140px; max-width: 100%; max-height: none; }
+.sidebar-logo-link { display: block; text-align: center; }
+.sidebar-title { font-size: 1.12rem; font-weight: 600; line-height: 1.4; margin: 1rem 0 1.8rem; text-align: center; }
+.sidebar-title a, .sidebar-title a:hover { color: #fff; text-decoration: none; }
+.sidebar-menu-container { margin-top: .75rem; }
+.sidebar-item-container { padding: .25rem 0; }
+.sidebar-navigation .sidebar-item { font-size: 1rem; }
+.sidebar-item-text, .sidebar-item-text:hover { color: #fff !important; }
+.sidebar-item-text.active { font-weight: 700; text-decoration: underline; text-underline-offset: .25rem; }
+main.content { padding: 1.25rem 0 3rem; }
+#title-block-header { margin-bottom: 1.25rem; }
+#title-block-header h1 { font-size: 2.05rem; line-height: 1.25; font-weight: 600; margin-top: 0; letter-spacing: -.025em; }
+h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem; }
+.home-contact { margin-bottom: 1.6rem; }
+.home-copy { max-width: 960px; }
+.home-copy p { margin-bottom: 1.3rem; }
+.calendar-note { font-style: italic; margin-bottom: 1.2rem; }
+.deadline-rule { font-size: .93rem; margin-bottom: 1.5rem; max-width: 1100px; }
+.course-schedule { overflow-x: auto; margin-top: 1rem; }
+.course-schedule table { width: 100%; table-layout: fixed; font-size: .91rem; line-height: 1.35; border-collapse: collapse; }
+.course-schedule th { font-weight: 500; background: #fff; border-top: 2px solid #d2d2d2; border-bottom: 2px solid #d2d2d2; padding: .45rem .5rem; }
+.course-schedule td { padding: .48rem .5rem; vertical-align: top; border-bottom: 1px solid #d2d2d2; border-right: 1px solid #dedede; }
+.course-schedule td:last-child { border-right: 0; }
+.course-schedule tbody tr:nth-child(odd) { background: #f3f3f3; }
+.course-schedule th:nth-child(1) { width: 11%; }
+.course-schedule th:nth-child(2) { width: 37%; }
+.course-schedule th:nth-child(3) { width: 29%; }
+.course-schedule th:nth-child(4) { width: 23%; }
+.course-schedule td:first-child { white-space: nowrap; }
+.course-schedule a { text-decoration: none; }
+.course-schedule a:hover { text-decoration: underline; }
+.deadline { color: #813381; }
+.deadline-icon { font-family: "Course Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif; }
+.tentative { font-size: .88em; font-style: italic; }
+.chapters { max-width: 1000px; }
+.chapters ul { padding-left: 1.4rem; }
+.chapters li { padding: .5rem 0; }
+.lesson-list { max-width: 950px; }
+.lesson-list table { width: 100%; }
+.lesson-list th, .lesson-list td { padding: .65rem .7rem; }
+.lesson-list tbody tr:nth-child(odd) { background: #f3f3f3; }
+.lesson-list th { font-weight: 600; border-top: 2px solid #d2d2d2; border-bottom: 2px solid #d2d2d2; }
+.pending { color: #717171; }
+:focus-visible { outline: 3px solid #993399; outline-offset: 3px; }
+#quarto-sidebar :focus-visible { outline-color: #fff; }
+@media (max-width: 991px) {
+  main.content { padding-top: .75rem; }
+  #title-block-header h1 { font-size: 1.75rem; }
+  .course-schedule table { min-width: 850px; }
+  .quarto-secondary-nav { background: #339898; color: #fff; }
+  .quarto-secondary-nav-title { white-space: normal; font-size: .95rem; }
+  .quarto-secondary-nav a { color: #fff; }
+}
+@media print {
+  .course-schedule { overflow: visible; }
+  .course-schedule table { min-width: 0; font-size: .75rem; }
+}

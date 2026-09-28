@@ -1,0 +1,15 @@
+---
+title: "Calendario"
+---
+
+::: {.calendar-note}
+Il calendario può subire modifiche.
+:::
+
+::: {.deadline-rule}
+[💬]{.deadline-icon} Le domande sulle letture sono dovute una settimana prima della relativa presentazione. Se quel giorno non c’è lezione, la scadenza è anticipata alla prima lezione precedente.
+:::
+
+::: {.course-schedule tabindex="0" role="region" aria-label="Calendario delle lezioni e delle scadenze"}
+{{< include _includes/calendario.md >}}
+:::

@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render:
+    - python3 scripts/calendario.py
+  render:
+    - index.qmd
+    - calendario.qmd
+    - lezioni.qmd
+    - dispensa.qmd
+    - esame.qmd
+  resources:
+    - assets/
+    - dispensa/
+
+lang: it
+
+website:
+  title: "Semiotica e teoria della comunicazione"
+  site-url: https://semiotica2026unipd.github.io/
+  favicon: favicon.svg
+  search: false
+  sidebar:
+    id: corso
+    title: "Semiotica e teoria della comunicazione"
+    logo: assets/semiotica.png
+    logo-alt: "Illustrazione geometrica del corso"
+    background: "#339898"
+    foreground: "#ffffff"
+    style: docked
+    align: center
+    pinned: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: calendario.qmd
+        text: Calendario
+      - href: lezioni.qmd
+        text: Lezioni
+      - href: dispensa.qmd
+        text: Dispensa
+      - href: esame.qmd
+        text: Esame
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    css: styles.css
+    toc: false
+    anchor-sections: true
+    link-external-newwindow: true
+    grid:
+      sidebar-width: 225px
+      body-width: 1200px
+      margin-width: 0px
+      gutter-width: 1.5rem
+

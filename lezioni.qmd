@@ -1,0 +1,15 @@
+---
+title: "Lezioni"
+---
+
+::: {.lesson-list}
+| Data | Argomento | Slide |
+|:-----|:----------|:------|
+| 29 settembre 2026 | Introduzione al corso | [Da caricare]{.pending} |
+| 30 settembre 2026 | Quello che diamo per scontato | [Da caricare]{.pending} |
+:::
+
+<!-- Sostituisci "[Da caricare]{.pending}" con un collegamento, per esempio:
+[Slide](https://indirizzo-delle-slide)
+-->
+
