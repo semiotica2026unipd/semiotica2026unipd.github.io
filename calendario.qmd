@@ -1,15 +1,13 @@
 ---
 title: "Calendario"
+include-in-header:
+  text: |
+    <meta http-equiv="refresh" content="0; url=index.html#calendario">
+    <link rel="canonical" href="https://semiotica2026unipd.github.io/#calendario">
 ---
 
-::: {.calendar-note}
-Il calendario può subire modifiche.
-:::
+[Calendario](index.qmd#calendario)
 
-::: {.deadline-rule}
-[💬]{.deadline-icon} Le domande sulle letture sono dovute una settimana prima della relativa presentazione. Se quel giorno non c’è lezione, la scadenza è anticipata alla prima lezione precedente.
-:::
-
-::: {.course-schedule tabindex="0" role="region" aria-label="Calendario delle lezioni e delle scadenze"}
-{{< include _includes/calendario.md >}}
-:::
+```{=html}
+<script>window.location.replace("index.html#calendario");</script>
+```

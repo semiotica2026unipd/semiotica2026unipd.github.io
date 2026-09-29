@@ -22,11 +22,14 @@ jobs:
           version: '1.10.18'
       - name: Genera tutte le pagine dai sorgenti
         run: quarto render
-      - name: Verifica le cinque pagine
+      - name: Verifica pagine e PDF pubblicati
         run: |
-          for page in index calendario lezioni dispensa esame; do
+          for page in index calendario overview lezioni dispensa lavoro-di-gruppo esame supporto; do
             test -s "_site/$page.html"
           done
+          test "$(find _site -type f -name '*.pdf' | wc -l)" -eq 2
+          cmp dispensa/capitolo-01.pdf _site/dispensa/capitolo-01.pdf
+          cmp dispensa/introduzione.pdf _site/dispensa/introduzione.pdf
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

@@ -2,7 +2,22 @@
 title: "Esame"
 ---
 
+## Modalità
+
+La prova scritta si svolge al computer e dura al massimo due ore. Sono previste domande chiuse e domande aperte bonus.
+
+## Programma
+
+Il programma d’esame comprende:
+
+- le dispense del corso;
+- Domaneschi, Filippo e Carlo Penco (2016). *Come non detto. Usi e abusi dei sottintesi*. Roma-Bari: Laterza;
+- Moro, Andrea (2017). *Le lingue impossibili*. Edizione italiana a cura di Nicola Del Maschio. Milano: Raffaello Cortina Editore.
+
+## Attività di gruppo e voto finale
+
+{{< include _includes/valutazione.md >}}
+
 ## Appelli
 
 Le date e i dettagli degli appelli saranno pubblicati in questa sezione.
-

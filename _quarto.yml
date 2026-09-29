@@ -6,12 +6,16 @@ project:
   render:
     - index.qmd
     - calendario.qmd
+    - overview.qmd
+    - lavoro-di-gruppo.qmd
     - lezioni.qmd
     - dispensa.qmd
     - esame.qmd
+    - supporto.qmd
   resources:
     - assets/
-    - dispensa/
+    - dispensa/capitolo-01.pdf
+    - dispensa/introduzione.pdf
 
 lang: it
 
@@ -22,9 +26,8 @@ website:
   search: false
   sidebar:
     id: corso
-    title: "Semiotica e teoria della comunicazione"
     logo: assets/semiotica.png
-    logo-alt: "Illustrazione geometrica del corso"
+    logo-alt: "Semiotica e teoria della comunicazione"
     background: "#339898"
     foreground: "#ffffff"
     style: docked
@@ -34,14 +37,18 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: calendario.qmd
-        text: Calendario
+      - href: overview.qmd
+        text: Overview
       - href: lezioni.qmd
         text: Lezioni
       - href: dispensa.qmd
         text: Dispensa
+      - href: lavoro-di-gruppo.qmd
+        text: Lavoro di gruppo
       - href: esame.qmd
         text: Esame
+      - href: supporto.qmd
+        text: Supporto
 
 format:
   html:
@@ -53,7 +60,7 @@ format:
     anchor-sections: true
     link-external-newwindow: true
     grid:
-      sidebar-width: 225px
+      sidebar-width: 260px
       body-width: 1200px
       margin-width: 0px
       gutter-width: 1.5rem

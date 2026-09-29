@@ -1,0 +1,55 @@
+---
+title: "Lavoro di gruppo"
+---
+
+## Link utili
+
+| Risorsa | Collegamento |
+|:---|:---|
+| Iscrizione al lavoro di gruppo | [Modulo di iscrizione](https://forms.gle/uiVe4Yv5rFTqnxkk8) |
+| Blog del lavoro di gruppo | [Blog del corso](https://semiotica26unipd.blogspot.com) |
+
+## Funzionamento
+
+L’attività prevede 14 gruppi, che saranno formati dal docente durante la prima settimana del corso in funzione del numero di studenti aderenti, tenendo conto delle preferenze espresse al momento dell’iscrizione.
+
+Il lavoro di gruppo si articola in tre parti:
+
+1. Preparazione di una presentazione. Ogni gruppo presenta una sola volta durante il semestre, nella data indicata nel calendario, sulle parti assegnate di *Le lingue impossibili* di Andrea Moro o di *Come non detto* di Filippo Domaneschi e Carlo Penco.
+
+2. Pubblicazione delle domande sul blog. In preparazione alle presentazioni degli altri gruppi, ciascun gruppo pubblica sul [blog del corso](https://semiotica26unipd.blogspot.com) una domanda per ciascun gruppo che presenterà, relativa alle letture assegnate. La domanda deve indicare un punto che si vorrebbe vedere affrontato durante la presentazione, di modo che che il gruppo destinatario possa tenerne conto nella preparazione. Le domande vanno pubblicate una settimana prima della presentazione; se quel giorno non è prevista una lezione, la scadenza è anticipata alla lezione più vicina andando indietro nel calendario. Le scadenze sono riportate nella colonna “Compiti”. Potrebbero anche esserci un numero limitato di letture di preparazione ad altre lezioni, per alcune delle quali sarà richiesto di postare domande; saranno rese pubbliche nella colonna compiti il prima possibile.
+
+3. Partecipazione alla discussione in aula. Durante le lezioni dedicate alle presentazioni, ogni gruppo che non presenta pone una domanda dal vivo. Questo momento permette di discutere quanto è stato esposto e di chiedere chiarimenti o approfondimenti, oltre alle domande già pubblicate sul blog.
+
+## Organizzazione interna
+
+Ogni gruppo sceglie:
+
+- un responsabile della comunicazione, che mantiene i contatti con il docente e, quando necessario, con gli altri gruppi;
+- un responsabile della suddivisione del lavoro, che si assicura che i compiti siano ripartiti equamente tra i componenti.
+
+Questi incarichi di coordinamento fanno parte del lavoro complessivo del gruppo. Chi li svolge avrà quindi un carico proporzionalmente minore nella preparazione dei contenuti.
+
+## Accesso al blog
+
+Ogni gruppo crea un proprio account Gmail, per esempio `gruppo1semiotica2026@gmail.com`, e ne comunica l’indirizzo al docente.
+
+Il blog è pubblico in lettura: chiunque può leggere i post senza utilizzare l’account del gruppo. La pubblicazione dei commenti è invece riservata al docente e ai 14 account dei gruppi, che saranno invitati come autori. Ogni gruppo pubblicherà le proprie domande utilizzando il proprio account.
+
+## Iscrizione
+
+[Iscriviti all’attività di gruppo](https://forms.gle/uiVe4Yv5rFTqnxkk8)
+
+È possibile iscriversi individualmente oppure inviare un’unica iscrizione per più persone che desiderano lavorare nello stesso gruppo, indicando nome, cognome e indirizzo e-mail di ciascuna.
+
+Il docente formerà i 14 gruppi cercando di rispettare queste preferenze, compatibilmente con una distribuzione equilibrata degli iscritti. L’iscrizione congiunta non garantisce quindi l’assegnazione allo stesso gruppo.
+
+## Valutazione e voto finale
+
+{{< include _includes/valutazione.md >}}
+
+## Calendario delle presentazioni
+
+::: {.group-schedule tabindex="0" role="region" aria-label="Calendario delle presentazioni"}
+{{< include _includes/presentazioni.md >}}
+:::

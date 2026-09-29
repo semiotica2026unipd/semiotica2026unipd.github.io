@@ -4,12 +4,22 @@ title: "Semiotica e teoria della comunicazione"
 
 ::: {.home-copy}
 ::: {.home-contact}
-[Janek Guerrini](https://sites.google.com/view/janek-guerrini/home) — Università di Padova — A.A. 2026-2027  
-[janek.guerrini@unipd.it](mailto:janek.guerrini@unipd.it)
+[Janek Guerrini](https://sites.google.com/view/janek-guerrini/home) — Università di Padova — A.A. 2026-2027
 :::
 
-Questo sito raccoglie il calendario delle lezioni, i materiali del corso e le informazioni sull’esame. Il calendario è provvisorio e verrà aggiornato durante il semestre.
+Lezioni: lunedì, martedì e mercoledì, ore 12:30–14:00, aula Cal 2.
 
-Il ricevimento è possibile tutti i giorni in cui c’è lezione, subito dopo lezione. È anche possibile su appuntamento previo accordo per e-mail.
+E-mail: [janek.guerrini@unipd.it](mailto:janek.guerrini@unipd.it).
+
+Il ricevimento è possibile nei giorni di lezione, subito dopo la lezione, oppure su appuntamento previo accordo via e-mail.
 :::
 
+## Calendario {#calendario}
+
+::: {.calendar-note}
+Il calendario è provvisorio e può subire modifiche.
+:::
+
+::: {.course-schedule tabindex="0" role="region" aria-label="Calendario delle lezioni e delle scadenze"}
+{{< include _includes/calendario.md >}}
+:::

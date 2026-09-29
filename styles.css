@@ -71,3 +71,58 @@ h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem; }
   .course-schedule { overflow: visible; }
   .course-schedule table { min-width: 0; font-size: .75rem; }
 }
+
+/* Logo completo, senza un secondo titolo nella barra laterale. */
+.sidebar-logo { width: 176px; max-width: 100%; height: auto; object-fit: contain; }
+.sidebar-logo-link { margin-bottom: .25rem; }
+/* Calendario a simboli: letture, slide e PDF, con stati non disponibili. */
+.course-schedule table { min-width: 790px; }
+.course-schedule th:nth-child(1) { width: 11%; }
+.course-schedule th:nth-child(2) { width: 31%; }
+.course-schedule th:nth-child(3) { width: 12%; }
+.course-schedule th:nth-child(4) { width: 8%; }
+.course-schedule th:nth-child(5) { width: 10%; }
+.course-schedule th:nth-child(6) { width: 28%; }
+.course-schedule :is(th,td):nth-child(3),
+.course-schedule :is(th,td):nth-child(4),
+.course-schedule :is(th,td):nth-child(5) { text-align: center !important; }
+.course-schedule th { font-size: .86rem; }
+.material-icon { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; font-size: 1.18rem; vertical-align: middle; }
+a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
+.material-icon.unavailable { color: #b9bec1; cursor: default; }
+#letture-assegnate ~ section h3 { font-size: 1.03rem; font-weight: 600; }
+[id^="lettura-"], #calendario { scroll-margin-top: 5rem; }
+[id^="lettura-"]:target { background: #f5f9f9; border-left: 3px solid #339898; padding-left: 1rem; }
+.group-schedule { overflow-x: auto; }
+.group-schedule table { width: 100%; }
+.group-schedule td { vertical-align: top; }
+.group-schedule td:first-child { white-space: nowrap; }
+@media (max-width: 991px) {
+  .sidebar-logo { width: 176px; }
+  #quarto-sidebar { max-width: 100vw; }
+  .material-icon { width: 2.25rem; min-height: 2.5rem; }
+  .group-schedule table { min-width: 500px; }
+}
+@media (max-width: 991px) {
+  #quarto-sidebar .sidebar-logo.light-content { display: block !important; margin: 0 auto; }
+}
+
+/* Entrate delle lezioni e tabella del calendario aggiornato. */
+.lesson-entry { padding: 1.4rem 0 1.8rem; border-bottom: 1px solid #dedede; }
+.lesson-entry h2 { margin-top: .25rem; font-size: 1.35rem; }
+.lesson-date { color: #657077; margin-bottom: .6rem; }
+.lesson-materials { display: flex; gap: 1.25rem; align-items: center; }
+.course-schedule table colgroup { display: none; }
+.course-schedule th:nth-child(1) { width: 13%; }
+.course-schedule th:nth-child(2) { width: 39%; }
+.course-schedule th:nth-child(3) { width: 10%; }
+.course-schedule th:nth-child(4) { width: 7%; }
+.course-schedule th:nth-child(5) { width: 8%; }
+.course-schedule th:nth-child(6) { width: 23%; }
+.course-schedule td:first-child { white-space: normal; }
+.course-schedule .presentation-group { display: block; margin-top: .45rem; }
+.group-schedule th { font-weight: 500; }
+@media (min-width: 992px) {
+  .sidebar-logo { width: 80%; max-width: 176px; }
+}
+.course-schedule table { min-width: 960px; }
