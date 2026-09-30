@@ -27,8 +27,7 @@ jobs:
           for page in index calendario overview lezioni dispensa lavoro-di-gruppo esame supporto; do
             test -s "_site/$page.html"
           done
-          test "$(find _site -type f -name '*.pdf' | wc -l)" -eq 2
-          cmp dispensa/capitolo-01.pdf _site/dispensa/capitolo-01.pdf
+          test "$(find _site -type f -name '*.pdf' | wc -l)" -eq 1
           cmp dispensa/introduzione.pdf _site/dispensa/introduzione.pdf
       - uses: actions/upload-pages-artifact@v4
         with:

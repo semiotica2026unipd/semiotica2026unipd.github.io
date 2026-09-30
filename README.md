@@ -24,7 +24,7 @@ Apri il file su GitHub, premi la matita, modifica il testo e premi **Commit chan
 | Testo sopra la tabella del calendario | `index.qmd` |
 | Collegamenti alle slide (data ISO → URL) | `_data/slides.json` |
 | Elenco dei capitoli della dispensa | `dispensa.qmd` |
-| PDF pubblicati | `dispensa/introduzione.pdf` e `dispensa/capitolo-01.pdf` |
+| PDF pubblicati | `dispensa/introduzione.pdf` |
 | Informazioni sugli appelli | `esame.qmd` |
 | Immagine in alto a sinistra | `assets/semiotica.png` |
 | Voci del menu | `_quarto.yml` |
@@ -41,7 +41,7 @@ Inserisci in `_data/slides.json` la data della lezione e il collegamento alle sl
 
 ## Dispensa
 
-Sono distribuiti soltanto Introduzione e capitolo 1. Gli altri PDF sono conservati in una copia di lavoro esterna alla cartella del sito. Per pubblicare un nuovo capitolo, reinserisci il PDF in `dispensa/`, aggiorna `HANDOUTS` in `scripts/calendario.py`, la lista `resources` in `_quarto.yml`, l'indice `dispensa.qmd` e il controllo dei PDF nel workflow.
+È distribuita soltanto l’Introduzione. Gli altri PDF sono conservati in una copia di lavoro esterna alla cartella del sito. Per pubblicare un nuovo capitolo, reinserisci il PDF in `dispensa/`, aggiorna `HANDOUTS` in `scripts/calendario.py`, la lista `resources` in `_quarto.yml`, l'indice `dispensa.qmd` e il controllo dei PDF nel workflow.
 
 I file `_includes/calendario.md`, `_includes/presentazioni.md` e `_includes/lezioni.md` sono generati: modifica il CSV e il JSON, non questi file.
 

@@ -6,5 +6,4 @@ I capitoli della dispensa saranno pubblicati progressivamente durante il corso.
 
 ::: {.chapters}
 - [Introduzione](dispensa/introduzione.pdf)
-- [1. L'utilità della comprensione dell'istinto comunicativo: il caso delle presupposizioni](dispensa/capitolo-01.pdf)
 :::

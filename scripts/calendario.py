@@ -9,8 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 # Disponibilità esplicitamente richiesta, senza inferire altri abbinamenti.
-HANDOUTS = {'2026-09-29':('Introduzione','dispensa/introduzione.pdf'),
-            '2026-09-30':('Capitolo 1','dispensa/capitolo-01.pdf')}
+HANDOUTS = {'2026-09-29':('Introduzione','dispensa/introduzione.pdf')}
 with (ROOT/'_data/calendario.csv').open(encoding='utf-8',newline='') as f:
     events = sorted(csv.DictReader(f),key=lambda row:row['data'])
 slides = json.loads((ROOT/'_data/slides.json').read_text(encoding='utf-8'))
@@ -60,6 +59,8 @@ for row,day in zip(events,dates):
     name,pdf=HANDOUTS.get(key,('Dispensa non disponibile',None))
     handout=icon('dispensa',name,pdf)
     due=[]
+    if key == "2026-10-05":
+        due.append('<a href="https://forms.gle/uiVe4Yv5rFTqnxkk8">Scadenza per l’iscrizione al lavoro di gruppo.</a>')
     for presentation in deadlines[day]:
         numbers=' e '.join(group for group,_ in groups(presentation))
         due.append('<span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> '
