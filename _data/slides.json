@@ -1,1 +1,19 @@
-{}
+[
+  {
+    "id": "lezione-1",
+    "title": "Lezione 1",
+    "dates": ["2026-09-29"],
+    "files": [
+      {"href": "materiali/lezione-1.pptx", "text": "PowerPoint con i video"},
+      {"href": "materiali/lezione-1.pdf", "text": "PDF per una consultazione più semplice"}
+    ]
+  },
+  {
+    "id": "lezioni-2-3",
+    "title": "Lezioni 2–3",
+    "dates": ["2026-09-30", "2026-10-05"],
+    "files": [
+      {"href": "materiali/lezioni-2-3.pdf", "text": "PDF delle lezioni 2–3"}
+    ]
+  }
+]

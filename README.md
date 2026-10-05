@@ -22,7 +22,8 @@ Apri il file su GitHub, premi la matita, modifica il testo e premi **Commit chan
 | Home, contatti, ricevimento | `index.qmd` |
 | Date, argomenti e letture delle lezioni | `_data/calendario.csv` |
 | Testo sopra la tabella del calendario | `index.qmd` |
-| Collegamenti alle slide (data ISO → URL) | `_data/slides.json` |
+| Materiali delle lezioni e date associate | `_data/slides.json` |
+| News datate, dalla più recente | `_data/news.json` |
 | Elenco dei capitoli della dispensa | `dispensa.qmd` |
 | PDF pubblicati | `dispensa/introduzione.pdf` |
 | Informazioni sugli appelli | `esame.qmd` |
@@ -37,11 +38,15 @@ Lo script `scripts/calendario.py` calcola le scadenze sette giorni prima di ogni
 
 ## Inserire le slide
 
-Inserisci in `_data/slides.json` la data della lezione e il collegamento alle slide, per esempio `"2026-09-29": "https://indirizzo-delle-slide"`. Il generatore usa lo stesso collegamento nella Home e nella pagina Lezioni. Le date senza collegamento mostrano un simbolo disattivato.
+Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indicando `id` (univoco), `title`, `dates` (date ISO) e `files` (elenchi di `href` e `text`). Più date consecutive con lo stesso materiale condividono una sola cella Slides nel calendario. Se ci sono più file, l’icona del calendario apre l’entrata nella pagina Lezioni con tutti i collegamenti; con un solo file apre direttamente quel file. I file sono conservati in `materiali/` e vanno elencati anche nelle risorse di `_quarto.yml` e nei controlli del workflow.
+
+## Aggiornare le News
+
+Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra tre avvisi, poi altri cinque a ogni clic su “Vedi altre”. Il pulsante scompare quando tutti gli avvisi sono visibili; senza JavaScript sono visibili tutti. Non modificare il file generato.
 
 ## Dispensa
 
-È distribuita soltanto l’Introduzione. Gli altri PDF sono conservati in una copia di lavoro esterna alla cartella del sito. Per pubblicare un nuovo capitolo, reinserisci il PDF in `dispensa/`, aggiorna `HANDOUTS` in `scripts/calendario.py`, la lista `resources` in `_quarto.yml`, l'indice `dispensa.qmd` e il controllo dei PDF nel workflow.
+Della dispensa è distribuita soltanto l’Introduzione. Gli altri PDF sono conservati in una copia di lavoro esterna alla cartella del sito. Per pubblicare un nuovo capitolo, reinserisci il PDF in `dispensa/`, aggiorna `HANDOUTS` in `scripts/calendario.py`, la lista `resources` in `_quarto.yml`, l'indice `dispensa.qmd` e il controllo dei PDF nel workflow.
 
 I file `_includes/calendario.md`, `_includes/presentazioni.md` e `_includes/lezioni.md` sono generati: modifica il CSV e il JSON, non questi file.
 

@@ -16,7 +16,7 @@ Il ricevimento è possibile nei giorni di lezione, subito dopo la lezione, oppur
 
 ## News {#news}
 
-- La deadline per iscriversi al lavoro di gruppo è lunedì 5 ottobre. I gruppi saranno formati nei giorni che seguono.
+{{< include _includes/news.md >}}
 
 ## Calendario {#calendario}
 

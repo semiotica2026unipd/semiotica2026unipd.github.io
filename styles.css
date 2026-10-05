@@ -83,9 +83,12 @@ h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem; }
 .course-schedule th:nth-child(4) { width: 8%; }
 .course-schedule th:nth-child(5) { width: 10%; }
 .course-schedule th:nth-child(6) { width: 28%; }
-.course-schedule :is(th,td):nth-child(3),
-.course-schedule :is(th,td):nth-child(4),
-.course-schedule :is(th,td):nth-child(5) { text-align: center !important; }
+.course-schedule th:nth-child(3),
+.course-schedule th:nth-child(4),
+.course-schedule th:nth-child(5),
+.course-schedule td.preparazione-cell,
+.course-schedule td.slides-cell,
+.course-schedule td.dispensa-cell { text-align: center !important; }
 .course-schedule th { font-size: .86rem; }
 .material-icon { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; font-size: 1.18rem; vertical-align: middle; }
 a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
@@ -126,3 +129,14 @@ a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
   .sidebar-logo { width: 80%; max-width: 176px; }
 }
 .course-schedule table { min-width: 960px; }
+
+/* Celle dei materiali condivise fra più lezioni. */
+.course-schedule td.slides-cell[rowspan] { vertical-align: middle; background: #f3f3f3; }
+.lesson-materials { flex-wrap: wrap; }
+[id^="lezion"], #news { scroll-margin-top: 5rem; }
+.course-news li { margin-bottom: .75rem; }
+.course-news time { color: #657077; }
+.course-news [hidden] { display: none !important; }
+#news-more { color: #813381; background: #fff; border: 1px solid #813381; border-radius: .25rem; padding: .45rem .9rem; font: inherit; cursor: pointer; }
+#news-more:hover { background: #f0e7f0; }
+@media print { .course-news li[hidden] { display: list-item !important; } #news-more { display: none; } }

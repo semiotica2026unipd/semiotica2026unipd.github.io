@@ -3,6 +3,7 @@ project:
   output-dir: _site
   pre-render:
     - python3 scripts/calendario.py
+    - python3 scripts/news.py
   render:
     - index.qmd
     - calendario.qmd
@@ -15,6 +16,9 @@ project:
   resources:
     - assets/
     - dispensa/introduzione.pdf
+    - materiali/lezione-1.pptx
+    - materiali/lezione-1.pdf
+    - materiali/lezioni-2-3.pdf
 
 lang: it
 
@@ -63,4 +67,3 @@ format:
       body-width: 1200px
       margin-width: 0px
       gutter-width: 1.5rem
-
