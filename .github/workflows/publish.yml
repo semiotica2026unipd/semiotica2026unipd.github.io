@@ -27,12 +27,16 @@ jobs:
           for page in index calendario overview lezioni dispensa lavoro-di-gruppo esame supporto; do
             test -s "_site/$page.html"
           done
-          test "$(find _site -type f -name '*.pdf' | wc -l)" -eq 3
+          test "$(find _site -type f -name '*.pdf' | wc -l)" -eq 6
           cmp dispensa/introduzione.pdf _site/dispensa/introduzione.pdf
-          for file in lezione-1.pptx lezione-1.pdf lezioni-2-3.pdf; do
+          for file in lezione-1.pptx lezione-1.pdf lezioni-2-3.pdf lezioni-4-5.pdf esercizio.pdf esercizio2.pdf; do
             cmp "materiali/$file" "_site/materiali/$file"
           done
           test "$(find _site/dispensa -type f -name '*.pdf' | wc -l)" -eq 1
+          for page in index calendario overview lezioni dispensa lavoro-di-gruppo esame supporto; do
+            grep -q '<meta name="robots" content="noindex, nofollow">' "_site/$page.html"
+          done
+          test ! -e _site/sitemap.xml
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

@@ -4,6 +4,8 @@ project:
   pre-render:
     - python3 scripts/calendario.py
     - python3 scripts/news.py
+  post-render:
+    - python3 scripts/noindex.py
   render:
     - index.qmd
     - calendario.qmd
@@ -19,6 +21,9 @@ project:
     - materiali/lezione-1.pptx
     - materiali/lezione-1.pdf
     - materiali/lezioni-2-3.pdf
+    - materiali/lezioni-4-5.pdf
+    - materiali/esercizio.pdf
+    - materiali/esercizio2.pdf
 
 lang: it
 
@@ -59,6 +64,7 @@ format:
       - cosmo
       - theme.scss
     css: styles.css
+    include-in-header: _includes/noindex.html
     toc: false
     anchor-sections: true
     link-external-newwindow: true

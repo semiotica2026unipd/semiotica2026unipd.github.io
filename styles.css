@@ -116,25 +116,30 @@ a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
 .lesson-date { color: #657077; margin-bottom: .6rem; }
 .lesson-materials { display: flex; gap: 1.25rem; align-items: center; }
 .course-schedule table colgroup { display: none; }
-.course-schedule th:nth-child(1) { width: 13%; }
-.course-schedule th:nth-child(2) { width: 39%; }
+.course-schedule th:nth-child(1) { width: 12%; }
+.course-schedule th:nth-child(2) { width: 32%; }
 .course-schedule th:nth-child(3) { width: 10%; }
 .course-schedule th:nth-child(4) { width: 7%; }
 .course-schedule th:nth-child(5) { width: 8%; }
-.course-schedule th:nth-child(6) { width: 23%; }
+.course-schedule th:nth-child(6) { width: 14%; }
+.course-schedule th:nth-child(7) { width: 17%; }
+.course-schedule th:nth-child(6), .course-schedule td.esercizi-cell { text-align: center !important; }
 .course-schedule td:first-child { white-space: normal; }
 .course-schedule .presentation-group { display: block; margin-top: .45rem; }
 .group-schedule th { font-weight: 500; }
 @media (min-width: 992px) {
   .sidebar-logo { width: 80%; max-width: 176px; }
 }
-.course-schedule table { min-width: 960px; }
+.course-schedule table { min-width: 1040px; }
 
 /* Celle dei materiali condivise fra più lezioni. */
 .course-schedule td.slides-cell[rowspan] { vertical-align: middle; background: #f3f3f3; }
 .lesson-materials { flex-wrap: wrap; }
 [id^="lezion"], #news { scroll-margin-top: 5rem; }
 .course-news li { margin-bottom: .75rem; }
+.course-news ul { padding-left: 1.35rem; }
+.course-news .news-sections { margin-top: .6rem; }
+.course-news .news-sections > li > ul { margin-top: .5rem; }
 .course-news time { color: #657077; }
 .course-news [hidden] { display: none !important; }
 #news-more { color: #813381; background: #fff; border: 1px solid #813381; border-radius: .25rem; padding: .45rem .9rem; font: inherit; cursor: pointer; }

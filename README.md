@@ -23,6 +23,7 @@ Apri il file su GitHub, premi la matita, modifica il testo e premi **Commit chan
 | Date, argomenti e letture delle lezioni | `_data/calendario.csv` |
 | Testo sopra la tabella del calendario | `index.qmd` |
 | Materiali delle lezioni e date associate | `_data/slides.json` |
+| Esercizi visti in classe e date associate | `_data/esercizi.json` |
 | News datate, dalla più recente | `_data/news.json` |
 | Elenco dei capitoli della dispensa | `dispensa.qmd` |
 | PDF pubblicati | `dispensa/introduzione.pdf` |
@@ -42,7 +43,15 @@ Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indi
 
 ## Aggiornare le News
 
-Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra tre avvisi, poi altri cinque a ogni clic su “Vedi altre”. Il pulsante scompare quando tutti gli avvisi sono visibili; senza JavaScript sono visibili tutti. Non modificare il file generato.
+Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. Per un avviso articolato, usa invece `sections`, con `title` e una lista di `items` per ciascuna sezione. I titoli delle sezioni sono in grassetto; ogni avviso datato conta come una news, indipendentemente dal numero di sottopunti. Nei testi sono ammessi collegamenti Markdown HTTP, HTTPS e mailto. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra tre avvisi, poi altri cinque a ogni clic su “Vedi altre”. Il pulsante scompare quando tutti gli avvisi sono visibili; senza JavaScript sono visibili tutti. Non modificare il file generato.
+
+## Esercizi e scadenze
+
+In `_data/esercizi.json` ogni data ISO contiene una lista di file con `href` e `text`. Gli esercizi compaiono nel calendario, nella colonna immediatamente prima di “Compiti e scadenze”, e fra i materiali della relativa entrata in Lezioni. Conserva i PDF in `materiali/` e aggiorna le risorse di `_quarto.yml` e i controlli del workflow. La scadenza per scambi e nominativi del 14 ottobre è definita in `scripts/calendario.py`, insieme a quella delle iscrizioni; le scadenze delle domande restano calcolate dalle presentazioni.
+
+## Indicizzazione
+
+Tutte le pagine HTML includono `_includes/noindex.html`, che richiede ai motori di ricerca `noindex, nofollow`. `robots.txt` permette la scansione necessaria per leggere questa istruzione; non bloccare i crawler, altrimenti potrebbero non rilevarla. `scripts/noindex.py` elimina la sitemap automatica dopo la compilazione. L'effetto sui risultati già presenti richiede una nuova scansione e il sito rimane pubblico. I PDF non possono contenere questo meta tag HTML: per escluderli direttamente dai risultati servirebbe l'header HTTP `X-Robots-Tag: noindex`, non configurabile in questo progetto GitHub Pages. Non è quindi garantita la deindicizzazione dei PDF già scoperti attraverso collegamenti esterni.
 
 ## Dispensa
 

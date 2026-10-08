@@ -1,0 +1,3 @@
+# I crawler devono poter leggere il noindex nelle pagine HTML.
+User-agent: *
+Allow: /

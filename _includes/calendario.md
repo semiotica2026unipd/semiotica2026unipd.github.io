@@ -6,7 +6,8 @@
 <th id="cal-preparazione" scope="col">Preparazione</th>
 <th id="cal-slides" scope="col">Slides</th>
 <th id="cal-dispensa" scope="col">Dispensa</th>
-<th id="cal-compiti" scope="col">Compiti</th>
+<th id="cal-esercizi" scope="col">Esercizi visti in classe</th>
+<th id="cal-compiti" scope="col">Compiti e scadenze</th>
 </tr></thead>
 <tbody>
 <tr data-date="2026-09-28">
@@ -15,6 +16,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 28 settembre — non disponibili" title="Slide — Lunedì 28 settembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-09-29">
@@ -23,45 +25,50 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><a class="material-icon" href="lezioni.html#lezione-1" aria-label="Materiali — Lezione 1" title="Materiali — Lezione 1"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><a class="material-icon" href="dispensa/introduzione.pdf" aria-label="Introduzione" title="Introduzione"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-09-30">
 <td class="data-cell" headers="cal-data">Mercoledì 30 settembre</td>
 <td class="argomento-cell" headers="cal-argomento">L’importanza di comprendere l’istinto comunicativo: le presupposizioni come caso di studio</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides" rowspan="2"><a class="material-icon" href="materiali/lezioni-2-3.pdf" aria-label="Materiali — Lezioni 2–3" title="Materiali — Lezioni 2–3"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
+<td class="slides-cell" headers="cal-slides" rowspan="3"><a class="material-icon" href="materiali/lezioni-2-3.pdf" aria-label="Materiali — Lezioni del 30 settembre, 5 e 6 ottobre" title="Materiali — Lezioni del 30 settembre, 5 e 6 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-05">
 <td class="data-cell" headers="cal-data">Lunedì 5 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Linguistica e comunicazione: la chiarezza e il punto di vista del lettore; maledizione della conoscenza</td>
+<td class="argomento-cell" headers="cal-argomento">Presupposizioni: fallimento e accomodazione</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><a href="https://forms.gle/uiVe4Yv5rFTqnxkk8">Scadenza per l’iscrizione al lavoro di gruppo.</a></td>
 </tr>
 <tr data-date="2026-10-06">
 <td class="data-cell" headers="cal-data">Martedì 6 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Le branche della linguistica; visione globale della disciplina</td>
+<td class="argomento-cell" headers="cal-argomento">Linguistica e comunicazione: la chiarezza e il punto di vista del lettore; maledizione della conoscenza</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 6 ottobre — non disponibili" title="Slide — Martedì 6 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"><a class="material-icon" href="materiali/esercizio.pdf" aria-label="Esercizio visto in classe il 6 ottobre — PDF" title="Esercizio visto in classe il 6 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-07">
 <td class="data-cell" headers="cal-data">Mercoledì 7 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Fonetica, fonologia, morfologia</td>
+<td class="argomento-cell" headers="cal-argomento">Fonetica e fonologia I</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 7 ottobre — non disponibili" title="Slide — Mercoledì 7 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="materiali/lezioni-4-5.pdf" aria-label="Materiali — Lezione del 7 ottobre" title="Materiali — Lezione del 7 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"><a class="material-icon" href="materiali/esercizio2.pdf" aria-label="Esercizio visto in classe il 7 ottobre — PDF" title="Esercizio visto in classe il 7 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-12">
 <td class="data-cell" headers="cal-data">Lunedì 12 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Morfologia e sintassi</td>
+<td class="argomento-cell" headers="cal-argomento">Fonetica e fonologia II</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 12 ottobre — non disponibili" title="Slide — Lunedì 12 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-13">
@@ -70,54 +77,61 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 13 ottobre — non disponibili" title="Slide — Martedì 13 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-14">
 <td class="data-cell" headers="cal-data">Mercoledì 14 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Sintassi e acquisizione del linguaggio; principi e parametri</td>
+<td class="argomento-cell" headers="cal-argomento">Morfologia e sintassi</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 14 ottobre — non disponibili" title="Slide — Mercoledì 14 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
-<td class="compiti-cell" headers="cal-compiti"></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
+<td class="compiti-cell" headers="cal-compiti">Termine per comunicare gli scambi di data tra gruppi e i nominativi del referente per le comunicazioni e del responsabile dell’organizzazione.</td>
 </tr>
 <tr data-date="2026-10-19">
 <td class="data-cell" headers="cal-data">Lunedì 19 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica: le condizioni di verità e i mondi possibili</td>
+<td class="argomento-cell" headers="cal-argomento">Sintassi e acquisizione del linguaggio; principi e parametri</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 19 ottobre — non disponibili" title="Slide — Lunedì 19 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-20">
 <td class="data-cell" headers="cal-data">Martedì 20 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica: i connettivi, la composizionalità, la conseguenza logica</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica: le condizioni di verità e i mondi possibili</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 20 ottobre — non disponibili" title="Slide — Martedì 20 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-21">
 <td class="data-cell" headers="cal-data">Mercoledì 21 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica e pragmatica: il contesto condiviso, le asserzioni e le presupposizioni</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica: i connettivi, la composizionalità, la conseguenza logica</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 21 ottobre — non disponibili" title="Slide — Mercoledì 21 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 1 e 2.</span></td>
 </tr>
 <tr data-date="2026-10-26">
 <td class="data-cell" headers="cal-data">Lunedì 26 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Il significato della musica I</td>
+<td class="argomento-cell" headers="cal-argomento">Ripasso comune: fonetica, fonologia, morfologia, sintassi e semantica</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 26 ottobre — non disponibili" title="Slide — Lunedì 26 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-27">
 <td class="data-cell" headers="cal-data">Martedì 27 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Il significato della musica II</td>
+<td class="argomento-cell" headers="cal-argomento">Il significato della musica</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 27 ottobre — non disponibili" title="Slide — Martedì 27 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-28">
@@ -126,22 +140,25 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 28 ottobre — non disponibili" title="Slide — Mercoledì 28 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 3 e 4.</span></td>
 </tr>
 <tr data-date="2026-11-02">
 <td class="data-cell" headers="cal-data">Lunedì 2 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Pragmatica: il significato letterale e le implicature scalari</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica e pragmatica: il contesto condiviso, le asserzioni e le presupposizioni</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 2 novembre — non disponibili" title="Slide — Lunedì 2 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-03">
 <td class="data-cell" headers="cal-data">Martedì 3 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Comunicazione animale I: i richiami delle scimmie di Campbell</td>
+<td class="argomento-cell" headers="cal-argomento">Pragmatica: il significato letterale e le implicature scalari</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 3 novembre — non disponibili" title="Slide — Martedì 3 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-04">
@@ -150,22 +167,25 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 4 novembre — non disponibili" title="Slide — Mercoledì 4 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 5 e 6.</span></td>
 </tr>
 <tr data-date="2026-11-09">
 <td class="data-cell" headers="cal-data">Lunedì 9 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Comunicazione animale II: la pragmatica dei richiami</td>
+<td class="argomento-cell" headers="cal-argomento">Comunicazione animale I: i richiami delle scimmie di Campbell</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 9 novembre — non disponibili" title="Slide — Lunedì 9 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-10">
 <td class="data-cell" headers="cal-data">Martedì 10 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Pragmatica: Grice, il principio di cooperazione e le implicature conversazionali</td>
+<td class="argomento-cell" headers="cal-argomento">Comunicazione animale II: la pragmatica dei richiami</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 10 novembre — non disponibili" title="Slide — Martedì 10 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-11">
@@ -174,38 +194,43 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 11 novembre — non disponibili" title="Slide — Mercoledì 11 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-16">
 <td class="data-cell" headers="cal-data">Lunedì 16 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Pragmatica: le domande implicite e la massima di Relazione</td>
+<td class="argomento-cell" headers="cal-argomento">Pragmatica: Grice, il principio di cooperazione e le implicature conversazionali</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 16 novembre — non disponibili" title="Slide — Lunedì 16 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-17">
 <td class="data-cell" headers="cal-data">Martedì 17 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Sociolinguistica I: Labov e la stratificazione sociale dell’inglese a New York</td>
+<td class="argomento-cell" headers="cal-argomento">Pragmatica: le domande implicite e la massima di Relazione</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 17 novembre — non disponibili" title="Slide — Martedì 17 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-18">
 <td class="data-cell" headers="cal-data">Mercoledì 18 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Sociolinguistica II: le lingue, i dialetti, le comunità e i repertori</td>
+<td class="argomento-cell" headers="cal-argomento">Sociolinguistica I</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 18 novembre — non disponibili" title="Slide — Mercoledì 18 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-23">
 <td class="data-cell" headers="cal-data">Lunedì 23 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Sociolinguistica III: la variazione, il potere e l’ideologia</td>
+<td class="argomento-cell" headers="cal-argomento">Sociolinguistica II</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 23 novembre — non disponibili" title="Slide — Lunedì 23 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 7 e 8.</span></td>
 </tr>
 <tr data-date="2026-11-24">
@@ -214,6 +239,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 24 novembre — non disponibili" title="Slide — Martedì 24 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-25">
@@ -222,6 +248,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 25 novembre — non disponibili" title="Slide — Mercoledì 25 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-30">
@@ -230,6 +257,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 30 novembre — non disponibili" title="Slide — Lunedì 30 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 9 e 10.</span></td>
 </tr>
 <tr data-date="2026-12-01">
@@ -238,6 +266,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 1 dicembre — non disponibili" title="Slide — Martedì 1 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-12-02">
@@ -246,6 +275,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 2 dicembre — non disponibili" title="Slide — Mercoledì 2 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-12-07">
@@ -254,6 +284,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 7 dicembre — non disponibili" title="Slide — Lunedì 7 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 11 e 12.</span><br><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 13 e 14.</span></td>
 </tr>
 <tr data-date="2026-12-08">
@@ -262,6 +293,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 8 dicembre — non disponibili" title="Slide — Martedì 8 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-12-09">
@@ -270,6 +302,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 9 dicembre — non disponibili" title="Slide — Mercoledì 9 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-12-14">
@@ -278,6 +311,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 14 dicembre — non disponibili" title="Slide — Lunedì 14 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-12-15">
@@ -286,6 +320,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 15 dicembre — non disponibili" title="Slide — Martedì 15 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-12-16">
@@ -294,6 +329,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 16 dicembre — non disponibili" title="Slide — Mercoledì 16 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 </tbody></table>
