@@ -33,7 +33,7 @@
 <td class="argomento-cell" headers="cal-argomento">L’importanza di comprendere l’istinto comunicativo: le presupposizioni come caso di studio</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides" rowspan="3"><a class="material-icon" href="materiali/lezioni-2-3.pdf" aria-label="Materiali — Lezioni del 30 settembre, 5 e 6 ottobre" title="Materiali — Lezioni del 30 settembre, 5 e 6 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
-<td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="dispensa-cell" headers="cal-dispensa"><a class="material-icon" href="https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing" aria-label="Presupposizioni" title="Presupposizioni"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
@@ -41,7 +41,7 @@
 <td class="data-cell" headers="cal-data">Lunedì 5 ottobre</td>
 <td class="argomento-cell" headers="cal-argomento">Presupposizioni: fallimento e accomodazione</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="dispensa-cell" headers="cal-dispensa"><a class="material-icon" href="https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing" aria-label="Presupposizioni" title="Presupposizioni"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><a href="https://forms.gle/uiVe4Yv5rFTqnxkk8">Scadenza per l’iscrizione al lavoro di gruppo.</a></td>
 </tr>
@@ -58,7 +58,7 @@
 <td class="argomento-cell" headers="cal-argomento">Fonetica e fonologia I</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><a class="material-icon" href="materiali/lezioni-4-5.pdf" aria-label="Materiali — Lezione del 7 ottobre" title="Materiali — Lezione del 7 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
-<td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="dispensa-cell" headers="cal-dispensa"><a class="material-icon" href="https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing" aria-label="Fonetica e fonologia" title="Fonetica e fonologia"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="esercizi-cell" headers="cal-esercizi"><a class="material-icon" href="materiali/esercizio2.pdf" aria-label="Esercizio visto in classe il 7 ottobre — PDF" title="Esercizio visto in classe il 7 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
@@ -67,7 +67,7 @@
 <td class="argomento-cell" headers="cal-argomento">Fonetica e fonologia II</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 12 ottobre — non disponibili" title="Slide — Lunedì 12 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
-<td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
+<td class="dispensa-cell" headers="cal-dispensa"><a class="material-icon" href="https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing" aria-label="Fonetica e fonologia" title="Fonetica e fonologia"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>

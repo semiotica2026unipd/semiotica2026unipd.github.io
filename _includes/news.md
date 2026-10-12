@@ -1,6 +1,7 @@
 ```{=html}
 <div class="course-news">
 <ul id="news-list">
+<li><time datetime="2026-10-12">12 ottobre 2026</time>: Sono disponibili le dispense sulle presupposizioni e su fonetica e fonologia. Ci saranno ancora piccole revisioni e aggiustamenti, ma potete già utilizzarle come materiale di studio. Ricordo che la versione definitiva sarà pubblicata all’inizio di dicembre e riunirà in un unico documento i capitoli dedicati alle diverse parti del corso.</li>
 <li><time datetime="2026-10-08">8 ottobre 2026</time><ul class="news-sections">
 <li><strong>Contenuti e prossime lezioni</strong><ul>
 <li>Le slide su fonetica e fonologia sono online.</li>
@@ -19,7 +20,8 @@
 <li><time datetime="2026-10-05">5 ottobre 2026</time>: C&#x27;è tempo fino ad oggi 5 ottobre a mezzanotte per iscriversi all&#x27;attività di gruppo. I gruppi verranno comunicati questo mercoledì 7 ottobre.</li>
 <li><time datetime="2026-09-30">30 settembre 2026</time>: La deadline per iscriversi al lavoro di gruppo è lunedì 5 ottobre. I gruppi saranno formati nei giorni che seguono.</li>
 </ul>
-<button id="news-more" type="button" aria-controls="news-list" hidden>Vedi altre</button>
+<button id="news-more" type="button" aria-controls="news-list" hidden>Vedi più</button>
+<button id="news-less" type="button" aria-controls="news-list" hidden>Vedi meno</button>
 </div>
 <script src="assets/news.js" defer></script>
 ```

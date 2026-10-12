@@ -142,6 +142,6 @@ a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
 .course-news .news-sections > li > ul { margin-top: .5rem; }
 .course-news time { color: #657077; }
 .course-news [hidden] { display: none !important; }
-#news-more { color: #813381; background: #fff; border: 1px solid #813381; border-radius: .25rem; padding: .45rem .9rem; font: inherit; cursor: pointer; }
-#news-more:hover { background: #f0e7f0; }
-@media print { .course-news li[hidden] { display: list-item !important; } #news-more { display: none; } }
+#news-more, #news-less { color: #813381; background: #fff; border: 1px solid #813381; border-radius: .25rem; padding: .45rem .9rem; font: inherit; cursor: pointer; }
+#news-more:hover, #news-less:hover { background: #f0e7f0; }
+@media print { .course-news li[hidden] { display: list-item !important; } #news-more, #news-less { display: none; } }

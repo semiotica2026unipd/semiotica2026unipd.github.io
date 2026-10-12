@@ -43,7 +43,7 @@ Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indi
 
 ## Aggiornare le News
 
-Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. Per un avviso articolato, usa invece `sections`, con `title` e una lista di `items` per ciascuna sezione. I titoli delle sezioni sono in grassetto; ogni avviso datato conta come una news, indipendentemente dal numero di sottopunti. Nei testi sono ammessi collegamenti Markdown HTTP, HTTPS e mailto. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra tre avvisi, poi altri cinque a ogni clic su “Vedi altre”. Il pulsante scompare quando tutti gli avvisi sono visibili; senza JavaScript sono visibili tutti. Non modificare il file generato.
+Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. Per un avviso articolato, usa invece `sections`, con `title` e una lista di `items` per ciascuna sezione. I titoli delle sezioni sono in grassetto; ogni avviso datato conta come una news, indipendentemente dal numero di sottopunti. Nei testi sono ammessi collegamenti Markdown HTTP, HTTPS e mailto. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra tre avvisi, poi altri cinque a ogni clic su “Vedi più”. “Vedi più” scompare quando tutti gli avvisi sono visibili; “Vedi meno” riporta la lista ai primi tre. Senza JavaScript sono visibili tutti gli avvisi. Non modificare il file generato.
 
 ## Esercizi e scadenze
 
@@ -55,7 +55,7 @@ Tutte le pagine HTML includono `_includes/noindex.html`, che richiede ai motori 
 
 ## Dispensa
 
-Della dispensa è distribuita soltanto l’Introduzione. Gli altri PDF sono conservati in una copia di lavoro esterna alla cartella del sito. Per pubblicare un nuovo capitolo, reinserisci il PDF in `dispensa/`, aggiorna `HANDOUTS` in `scripts/calendario.py`, la lista `resources` in `_quarto.yml`, l'indice `dispensa.qmd` e il controllo dei PDF nel workflow.
+Il sito distribuisce direttamente soltanto il PDF dell’Introduzione. Le dispense sulle presupposizioni e su fonetica e fonologia sono disponibili tramite i collegamenti Google Drive forniti dal docente, presenti in `dispensa.qmd` e in `HANDOUTS` in `scripts/calendario.py`. Per aggiungere una dispensa esterna, aggiorna questi collegamenti; non occorre copiare il PDF nella repository. Gli altri PDF restano nella copia di lavoro esterna alla cartella del sito. Per distribuire un nuovo PDF direttamente dal sito, inseriscilo in `dispensa/` e aggiorna anche `resources` in `_quarto.yml` e il controllo dei PDF nel workflow.
 
 I file `_includes/calendario.md`, `_includes/presentazioni.md` e `_includes/lezioni.md` sono generati: modifica il CSV e il JSON, non questi file.
 

@@ -6,4 +6,6 @@ I capitoli della dispensa saranno pubblicati progressivamente durante il corso.
 
 ::: {.chapters}
 - [Introduzione](dispensa/introduzione.pdf)
+- [Presupposizioni](https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing)
+- [Fonetica e fonologia](https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing)
 :::

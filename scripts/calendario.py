@@ -9,7 +9,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 # Disponibilità esplicitamente richiesta, senza inferire altri abbinamenti.
-HANDOUTS = {'2026-09-29':('Introduzione','dispensa/introduzione.pdf')}
+HANDOUTS = {
+    '2026-09-29': ('Introduzione', 'dispensa/introduzione.pdf'),
+    '2026-09-30': ('Presupposizioni', 'https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing'),
+    '2026-10-05': ('Presupposizioni', 'https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing'),
+    '2026-10-07': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
+    '2026-10-12': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
+}
 with (ROOT/'_data/calendario.csv').open(encoding='utf-8',newline='') as f:
     events = sorted(csv.DictReader(f),key=lambda row:row['data'])
 materials = json.loads((ROOT/'_data/slides.json').read_text(encoding='utf-8'))

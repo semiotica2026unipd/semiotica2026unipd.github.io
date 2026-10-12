@@ -42,5 +42,6 @@ Mercoledì 7 ottobre 2026
 
 - [PDF delle slide su fonetica e fonologia](materiali/lezioni-4-5.pdf)
 - [Esercizio visto in classe il 7 ottobre — PDF](materiali/esercizio2.pdf)
+- [Dispensa: Fonetica e fonologia](https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing)
 
 :::

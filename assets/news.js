@@ -1,12 +1,15 @@
 (() => {
   const list = document.getElementById('news-list');
   const more = document.getElementById('news-more');
-  if (!list || !more) return;
+  const less = document.getElementById('news-less');
+  if (!list || !more || !less) return;
   const items = Array.from(list.children);
-  let visible = 3;
+  const initial = 3;
+  let visible = initial;
   const update = () => {
     items.forEach((item, index) => { item.hidden = index >= visible; });
     more.hidden = visible >= items.length;
+    less.hidden = visible <= initial;
   };
   more.addEventListener('click', () => {
     const next = items[visible];
@@ -17,6 +20,12 @@
       next.tabIndex = -1;
       next.focus({ preventScroll: true });
     }
+  });
+  less.addEventListener('click', () => {
+    visible = initial;
+    update();
+    // Il comando usato scompare: torna al pulsante rimasto visibile.
+    more.focus();
   });
   update();
 })();
