@@ -28,17 +28,20 @@ Martedì 6 ottobre: Linguistica e comunicazione: la chiarezza e il punto di vist
 
 - [PDF delle lezioni del 30 settembre, 5 e 6 ottobre](materiali/lezioni-2-3.pdf)
 - [Esercizio visto in classe il 6 ottobre — PDF](materiali/esercizio.pdf)
+- [Dispensa: Presupposizioni](https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing)
 
 :::
 
 ::: {.lesson-entry}
 ::: {.lesson-date}
-Mercoledì 7 ottobre 2026
+Mercoledì 7 ottobre e Lunedì 12 ottobre 2026
 :::
 
-## Lezione del 7 ottobre. Fonetica e fonologia I {#fonetica-fonologia}
+## Lezioni del 7 e 12 ottobre {#fonetica-fonologia}
 
+Mercoledì 7 ottobre: Fonetica e fonologia I
 
+Lunedì 12 ottobre: Fonetica e fonologia II
 
 - [PDF delle slide su fonetica e fonologia](materiali/lezioni-4-5.pdf)
 - [Esercizio visto in classe il 7 ottobre — PDF](materiali/esercizio2.pdf)

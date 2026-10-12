@@ -13,6 +13,7 @@ HANDOUTS = {
     '2026-09-29': ('Introduzione', 'dispensa/introduzione.pdf'),
     '2026-09-30': ('Presupposizioni', 'https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing'),
     '2026-10-05': ('Presupposizioni', 'https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing'),
+    '2026-10-06': ('Presupposizioni', 'https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing'),
     '2026-10-07': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
     '2026-10-12': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
 }
@@ -60,6 +61,10 @@ def table(headers,rows):
     lines+=['| '+' | '.join(cell.replace('|','&#124;') for cell in row)+' |' for row in rows]
     return '\n'.join(lines)+'\n'
 
+def slide_target(material):
+    if not material: return None
+    return material['files'][0]['href'] if len(material['files']) == 1 else f"lezioni.html#{material['id']}"
+
 def calendar_table(rows):
     names = ['Data','Argomento','Preparazione','Slides','Dispensa','Esercizi visti in classe','Compiti e scadenze']
     classes = ['data','argomento','preparazione','slides','dispensa','esercizi','compiti']
@@ -67,14 +72,18 @@ def calendar_table(rows):
     lines += [f'<th id="cal-{cls}" scope="col">{name}</th>' for cls,name in zip(classes,names)]
     lines += ['</tr></thead>', '<tbody>']
     keys = [row['data'] for row in events]
+    shared_targets = {
+        'slides': [slide_target(slides.get(key)) for key in keys],
+        'dispensa': [HANDOUTS.get(key, (None, None))[1] for key in keys],
+    }
     for index,cells in enumerate(rows):
         lines.append(f'<tr data-date="{keys[index]}">')
         for col,(cls,cell) in enumerate(zip(classes,cells)):
             rowspan = 1
-            material = slides.get(keys[index]) if col == 3 else None
-            if material:
-                if index and slides.get(keys[index-1]) is material: continue
-                while index+rowspan < len(rows) and slides.get(keys[index+rowspan]) is material:
+            targets = shared_targets.get(cls)
+            if targets and targets[index]:
+                if index and targets[index-1] == targets[index]: continue
+                while index+rowspan < len(rows) and targets[index+rowspan] == targets[index]:
                     rowspan += 1
             span = f' rowspan="{rowspan}"' if rowspan > 1 else ''
             lines.append(f'<td class="{cls}-cell" headers="cal-{cls}"{span}>{cell}</td>')
@@ -92,10 +101,9 @@ for row,day in zip(events,dates):
         presentations.append([date_text,group,reading])
     preparation=icon('preparazione','Preparazione non disponibile')
     material=slides.get(key)
-    target = None
+    target = slide_target(material)
     label = f'Slide — {full_date(day)} — non disponibili'
     if material:
-        target = material['files'][0]['href'] if len(material['files']) == 1 else f"lezioni.html#{material['id']}"
         label = f"Materiali — {material['title']}"
     slide=icon('slides',label,target)
     name,pdf=HANDOUTS.get(key,('Dispensa non disponibile',None))
@@ -124,8 +132,9 @@ for row,day in zip(events,dates):
         for event in lesson_rows:
             for file in exercises.get(event['data'],[]):
                 links += f"\n- [{file['text']}]({file['href']})"
-        if len(lesson_rows) == 1 and key in HANDOUTS:
-            links += f"\n- [Dispensa: {name}]({pdf})"
+        handouts = dict.fromkeys(HANDOUTS[event['data']] for event in lesson_rows if event['data'] in HANDOUTS)
+        for handout_name, handout_url in handouts:
+            links += f"\n- [Dispensa: {handout_name}]({handout_url})"
         entries.append(f"::: {{.lesson-entry}}\n::: {{.lesson-date}}\n{dates_text}\n:::\n\n## {heading} {{#{material['id']}}}\n\n{topics}\n\n{links}\n\n:::\n")
 includes=ROOT/'_includes';includes.mkdir(exist_ok=True)
 for name,content in {

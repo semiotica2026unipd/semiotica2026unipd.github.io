@@ -133,7 +133,8 @@ a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
 .course-schedule table { min-width: 1040px; }
 
 /* Celle dei materiali condivise fra più lezioni. */
-.course-schedule td.slides-cell[rowspan] { vertical-align: middle; background: #f3f3f3; }
+.course-schedule td.slides-cell[rowspan],
+.course-schedule td.dispensa-cell[rowspan] { vertical-align: middle; background: #f3f3f3; }
 .lesson-materials { flex-wrap: wrap; }
 [id^="lezion"], #news { scroll-margin-top: 5rem; }
 .course-news li { margin-bottom: .75rem; }

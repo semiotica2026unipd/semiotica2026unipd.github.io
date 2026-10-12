@@ -39,7 +39,7 @@ Lo script `scripts/calendario.py` calcola le scadenze sette giorni prima di ogni
 
 ## Inserire le slide
 
-Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indicando `id` (univoco), `title`, `dates` (date ISO) e `files` (elenchi di `href` e `text`). Più date consecutive con lo stesso materiale condividono una sola cella Slides nel calendario. Se ci sono più file, l’icona del calendario apre l’entrata nella pagina Lezioni con tutti i collegamenti; con un solo file apre direttamente quel file. I file sono conservati in `materiali/` e vanno elencati anche nelle risorse di `_quarto.yml` e nei controlli del workflow.
+Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indicando `id` (univoco), `title`, `dates` (date ISO) e `files` (elenchi di `href` e `text`). Più date consecutive con lo stesso collegamento condividono una sola cella nel calendario, sia nella colonna Slides sia nella colonna Dispensa. Se ci sono più file, l’icona del calendario apre l’entrata nella pagina Lezioni con tutti i collegamenti; con un solo file apre direttamente quel file. I file sono conservati in `materiali/` e vanno elencati anche nelle risorse di `_quarto.yml` e nei controlli del workflow.
 
 ## Aggiornare le News
 
