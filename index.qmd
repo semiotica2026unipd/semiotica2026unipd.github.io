@@ -27,3 +27,7 @@ Il calendario è provvisorio e può subire modifiche.
 ::: {.course-schedule tabindex="0" role="region" aria-label="Calendario delle lezioni e delle scadenze"}
 {{< include _includes/calendario.md >}}
 :::
+
+```{=html}
+<script src="assets/calendar-header.js" defer></script>
+```

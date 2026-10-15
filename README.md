@@ -37,6 +37,8 @@ In `_data/calendario.csv` ogni riga è una data. `lezione` distingue gli incontr
 
 Lo script `scripts/calendario.py` calcola le scadenze sette giorni prima di ogni presentazione, anticipandole all'ultima lezione precedente se necessario. I giorni senza lezione sono esclusi dal calcolo. La colonna Settimana è numerata dalla settimana della prima data del corso, con una cella unita per ciascuna settimana e un separatore marcato al suo inizio. Le celle dei materiali condivisi restano unite anche quando attraversano due settimane. Non modificare direttamente i file generati in `_includes`.
 
+`assets/calendar-header.js` mantiene visibili i nomi delle colonne durante lo scorrimento della pagina, sincronizzandoli con lo scorrimento orizzontale del calendario. Su telefono l’intestazione si posiziona sotto il menu. La copia visiva è esclusa dalla lettura degli screen reader e dalla stampa; l’intestazione originale resta nella tabella.
+
 ## Inserire le slide
 
 Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indicando `id` (univoco), `title`, `dates` (date ISO) e `files` (elenchi di `href` e `text`). Più date consecutive con lo stesso collegamento condividono una sola cella nel calendario, sia nella colonna Slides sia nella colonna Dispensa. Se ci sono più file, l’icona del calendario apre l’entrata nella pagina Lezioni con tutti i collegamenti; con un solo file apre direttamente quel file. I file sono conservati in `materiali/` e vanno elencati anche nelle risorse di `_quarto.yml` e nei controlli del workflow.
