@@ -38,11 +38,6 @@ h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem; }
 .course-schedule td { padding: .48rem .5rem; vertical-align: top; border-bottom: 1px solid #d2d2d2; border-right: 1px solid #dedede; }
 .course-schedule td:last-child { border-right: 0; }
 .course-schedule tbody tr:nth-child(odd) { background: #f3f3f3; }
-.course-schedule th:nth-child(1) { width: 11%; }
-.course-schedule th:nth-child(2) { width: 37%; }
-.course-schedule th:nth-child(3) { width: 29%; }
-.course-schedule th:nth-child(4) { width: 23%; }
-.course-schedule td:first-child { white-space: nowrap; }
 .course-schedule a { text-decoration: none; }
 .course-schedule a:hover { text-decoration: underline; }
 .deadline { color: #813381; }
@@ -77,15 +72,9 @@ h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem; }
 .sidebar-logo-link { margin-bottom: .25rem; }
 /* Calendario a simboli: letture, slide e PDF, con stati non disponibili. */
 .course-schedule table { min-width: 790px; }
-.course-schedule th:nth-child(1) { width: 11%; }
-.course-schedule th:nth-child(2) { width: 31%; }
-.course-schedule th:nth-child(3) { width: 12%; }
-.course-schedule th:nth-child(4) { width: 8%; }
-.course-schedule th:nth-child(5) { width: 10%; }
-.course-schedule th:nth-child(6) { width: 28%; }
-.course-schedule th:nth-child(3),
-.course-schedule th:nth-child(4),
-.course-schedule th:nth-child(5),
+.course-schedule #cal-preparazione,
+.course-schedule #cal-slides,
+.course-schedule #cal-dispensa,
 .course-schedule td.preparazione-cell,
 .course-schedule td.slides-cell,
 .course-schedule td.dispensa-cell { text-align: center !important; }
@@ -116,21 +105,24 @@ a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
 .lesson-date { color: #657077; margin-bottom: .6rem; }
 .lesson-materials { display: flex; gap: 1.25rem; align-items: center; }
 .course-schedule table colgroup { display: none; }
-.course-schedule th:nth-child(1) { width: 12%; }
-.course-schedule th:nth-child(2) { width: 32%; }
-.course-schedule th:nth-child(3) { width: 10%; }
-.course-schedule th:nth-child(4) { width: 7%; }
-.course-schedule th:nth-child(5) { width: 8%; }
-.course-schedule th:nth-child(6) { width: 14%; }
-.course-schedule th:nth-child(7) { width: 17%; }
-.course-schedule th:nth-child(6), .course-schedule td.esercizi-cell { text-align: center !important; }
-.course-schedule td:first-child { white-space: normal; }
+.course-schedule #cal-settimana { width: 8%; text-align: center; }
+.course-schedule #cal-data { width: 11%; }
+.course-schedule #cal-argomento { width: 30%; }
+.course-schedule #cal-preparazione { width: 9%; }
+.course-schedule #cal-slides { width: 6%; }
+.course-schedule #cal-dispensa { width: 7%; }
+.course-schedule #cal-esercizi { width: 13%; }
+.course-schedule #cal-compiti { width: 16%; }
+.course-schedule #cal-esercizi, .course-schedule td.esercizi-cell { text-align: center !important; }
+.course-schedule td.data-cell { white-space: normal; }
+.course-schedule td.settimana-cell { text-align: center; vertical-align: middle; font-variant-numeric: tabular-nums; background: #fff; }
+.course-schedule tr.week-start > td { border-top: 3px solid #4d5458; }
 .course-schedule .presentation-group { display: block; margin-top: .45rem; }
 .group-schedule th { font-weight: 500; }
 @media (min-width: 992px) {
   .sidebar-logo { width: 80%; max-width: 176px; }
 }
-.course-schedule table { min-width: 1040px; }
+.course-schedule table { min-width: 1140px; }
 
 /* Celle dei materiali condivise fra più lezioni. */
 .course-schedule td.slides-cell[rowspan],

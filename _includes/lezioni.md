@@ -54,7 +54,7 @@ Lunedì 12 ottobre: Fonetica e fonologia II
 Mercoledì 14 ottobre 2026
 :::
 
-## Lezione del 14 ottobre. Morfologia e sintassi {#lezione-2026-10-14}
+## Lezione del 14 ottobre. Morfologia e un esercizio pratico su fonetica, fonologia e morfologia {#lezione-2026-10-14}
 
 
 

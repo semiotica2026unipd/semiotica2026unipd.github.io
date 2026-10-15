@@ -35,7 +35,7 @@ Apri il file su GitHub, premi la matita, modifica il testo e premi **Commit chan
 
 In `_data/calendario.csv` ogni riga è una data. `lezione` distingue gli incontri (`si`) dai giorni senza lezione (`no`); `provvisoria` vale `si` soltanto per il 30 novembre. Le coppie `gruppo_1`/`letture_1` e `gruppo_2`/`letture_2` contengono le assegnazioni dei gruppi, utilizzate sia nella Home sia nella pagina Lavoro di gruppo.
 
-Lo script `scripts/calendario.py` calcola le scadenze sette giorni prima di ogni presentazione, anticipandole all'ultima lezione precedente se necessario. I giorni senza lezione sono esclusi dal calcolo. Non modificare direttamente i file generati in `_includes`.
+Lo script `scripts/calendario.py` calcola le scadenze sette giorni prima di ogni presentazione, anticipandole all'ultima lezione precedente se necessario. I giorni senza lezione sono esclusi dal calcolo. La colonna Settimana è numerata dalla settimana della prima data del corso, con una cella unita per ciascuna settimana e un separatore marcato al suo inizio. Le celle dei materiali condivisi restano unite anche quando attraversano due settimane. Non modificare direttamente i file generati in `_includes`.
 
 ## Inserire le slide
 

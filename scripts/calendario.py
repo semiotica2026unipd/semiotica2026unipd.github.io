@@ -75,16 +75,27 @@ def slide_target(material):
 def calendar_table(rows):
     names = ['Data','Argomento','Preparazione','Slides','Dispensa','Esercizi visti in classe','Compiti e scadenze']
     classes = ['data','argomento','preparazione','slides','dispensa','esercizi','compiti']
-    lines = ['```{=html}', '<table class="table course-calendar">', '<thead><tr>']
+    lines = ['```{=html}', '<table class="table course-calendar">', '<thead><tr>',
+             '<th id="cal-settimana" scope="col">Settimana</th>']
     lines += [f'<th id="cal-{cls}" scope="col">{name}</th>' for cls,name in zip(classes,names)]
     lines += ['</tr></thead>', '<tbody>']
     keys = [row['data'] for row in events]
+    # Un solo tbody conserva le celle dei materiali unite anche fra settimane.
+    first_monday = dates[0] - timedelta(days=dates[0].weekday())
+    weeks = [(day - first_monday).days // 7 + 1 for day in dates]
     shared_targets = {
         'slides': [slide_target(slides.get(key)) for key in keys],
         'dispensa': [HANDOUTS.get(key, (None, None))[1] for key in keys],
     }
     for index,cells in enumerate(rows):
-        lines.append(f'<tr data-date="{keys[index]}">')
+        week_start = index == 0 or weeks[index] != weeks[index-1]
+        row_class = ' class="week-start"' if week_start else ''
+        lines.append(f'<tr data-date="{keys[index]}"{row_class}>')
+        if week_start:
+            week_span = 1
+            while index+week_span < len(rows) and weeks[index+week_span] == weeks[index]:
+                week_span += 1
+            lines.append(f'<td class="settimana-cell" headers="cal-settimana" rowspan="{week_span}">{weeks[index]}</td>')
         for col,(cls,cell) in enumerate(zip(classes,cells)):
             rowspan = 1
             targets = shared_targets.get(cls)
