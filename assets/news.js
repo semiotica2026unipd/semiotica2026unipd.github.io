@@ -4,7 +4,7 @@
   const less = document.getElementById('news-less');
   if (!list || !more || !less) return;
   const items = Array.from(list.children);
-  const initial = 3;
+  const initial = 1;
   let visible = initial;
   const update = () => {
     items.forEach((item, index) => { item.hidden = index >= visible; });

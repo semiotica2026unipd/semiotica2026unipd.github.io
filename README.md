@@ -45,7 +45,7 @@ Inserisci in `_data/slides.json` una voce per ciascun insieme di materiali, indi
 
 ## Aggiornare le News
 
-Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. Per un avviso articolato, usa invece `sections`, con `title` e una lista di `items` per ciascuna sezione. I titoli delle sezioni sono in grassetto; ogni avviso datato conta come una news, indipendentemente dal numero di sottopunti. Nei testi sono ammessi collegamenti Markdown HTTP, HTTPS e mailto. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra tre avvisi, poi altri cinque a ogni clic su “Vedi più”. “Vedi più” scompare quando tutti gli avvisi sono visibili; “Vedi meno” riporta la lista ai primi tre. Senza JavaScript sono visibili tutti gli avvisi. Non modificare il file generato.
+Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json`. Per un avviso articolato, usa invece `sections`, con `title` e una lista di `items` per ciascuna sezione. I titoli delle sezioni sono in grassetto; ogni avviso datato conta come una news, indipendentemente dal numero di sottopunti. Nei testi sono ammessi collegamenti Markdown HTTP, HTTPS e mailto. `scripts/news.py` ordina gli avvisi dalla data più recente e genera `_includes/news.md`. La Home mostra soltanto l’ultimo avviso, poi altri cinque a ogni clic su “Vedi più news”. “Vedi più news” scompare quando tutti gli avvisi sono visibili; “Vedi meno” riporta la lista al solo ultimo avviso. Senza JavaScript sono visibili tutti gli avvisi. Non modificare il file generato.
 
 ## Esercizi e scadenze
 

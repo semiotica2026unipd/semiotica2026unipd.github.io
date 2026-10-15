@@ -34,7 +34,7 @@ for item in news:
         lines.append('</ul></li>')
     else:
         lines.append(f'<li><time datetime="{day.isoformat()}">{label}</time>: {inline_links(item["text"])}</li>')
-lines += ['</ul>', '<button id="news-more" type="button" aria-controls="news-list" hidden>Vedi più</button>',
+lines += ['</ul>', '<button id="news-more" type="button" aria-controls="news-list" hidden>Vedi più news</button>',
           '<button id="news-less" type="button" aria-controls="news-list" hidden>Vedi meno</button>',
           '</div>', '<script src="assets/news.js" defer></script>', '```', '']
 (ROOT / '_includes/news.md').write_text('\n'.join(lines), encoding='utf-8')
