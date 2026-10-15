@@ -47,7 +47,7 @@ Aggiungi una voce con `date` (formato `AAAA-MM-GG`) e `text` in `_data/news.json
 
 ## Esercizi e scadenze
 
-In `_data/esercizi.json` ogni data ISO contiene una lista di file con `href` e `text`. Gli esercizi compaiono nel calendario, nella colonna immediatamente prima di “Compiti e scadenze”, e fra i materiali della relativa entrata in Lezioni. Conserva i PDF in `materiali/` e aggiorna le risorse di `_quarto.yml` e i controlli del workflow. La scadenza per scambi e nominativi del 14 ottobre è definita in `scripts/calendario.py`, insieme a quella delle iscrizioni; le scadenze delle domande restano calcolate dalle presentazioni.
+In `_data/esercizi.json` ogni data ISO contiene una lista di file con `href` e `text`; `label` è facoltativo e aggiunge un’etichetta visibile all’icona, per distinguere per esempio esercizio e soluzione. Gli esercizi compaiono nel calendario, nella colonna immediatamente prima di “Compiti e scadenze”, e fra i materiali della relativa entrata in Lezioni, anche quando non sono ancora disponibili slide. Per i collegamenti esterni basta indicare l’URL; per distribuire direttamente un PDF, conservalo in `materiali/` e aggiorna le risorse di `_quarto.yml` e i controlli del workflow. La scadenza per scambi e nominativi del 14 ottobre è definita in `scripts/calendario.py`, insieme a quella delle iscrizioni; le scadenze delle domande restano calcolate dalle presentazioni.
 
 ## Indicizzazione
 

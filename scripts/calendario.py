@@ -61,6 +61,13 @@ def table(headers,rows):
     lines+=['| '+' | '.join(cell.replace('|','&#124;') for cell in row)+' |' for row in rows]
     return '\n'.join(lines)+'\n'
 
+def exercise_link(file):
+    if not file.get('label'):
+        return icon('esercizi',file['text'],file['href'])
+    return (f'<a href="{escape(file["href"],quote=True)}" aria-label="{escape(file["text"],quote=True)}">'
+            '<span class="bi bi-file-earmark-pdf" aria-hidden="true"></span> '
+            f'{escape(file["label"])}</a>')
+
 def slide_target(material):
     if not material: return None
     return material['files'][0]['href'] if len(material['files']) == 1 else f"lezioni.html#{material['id']}"
@@ -108,7 +115,7 @@ for row,day in zip(events,dates):
     slide=icon('slides',label,target)
     name,pdf=HANDOUTS.get(key,('Dispensa non disponibile',None))
     handout=icon('dispensa',name,pdf)
-    exercise_links=' '.join(icon('esercizi',file['text'],file['href']) for file in exercises.get(key,[]))
+    exercise_links='<br>'.join(exercise_link(file) for file in exercises.get(key,[]))
     due=[]
     if key == "2026-10-05":
         due.append('<a href="https://forms.gle/uiVe4Yv5rFTqnxkk8">Scadenza per l’iscrizione al lavoro di gruppo.</a>')
@@ -119,23 +126,24 @@ for row,day in zip(events,dates):
         due.append('<span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> '
                    f'Postare sul blog domande per i gruppi {numbers}.</span>')
     calendar.append([date_text,topic,preparation,slide,handout,exercise_links,'<br>'.join(due)])
-    if material and key == material['dates'][0]:
-        lesson_rows = [event for event in events if event['data'] in material['dates']]
+    if (material and key == material['dates'][0]) or (not material and exercises.get(key)):
+        lesson_rows = [event for event in events if event['data'] in material['dates']] if material else [row]
+        entry_id = material['id'] if material else f'lezione-{key}'
         dates_text = ' e '.join(full_date(date.fromisoformat(event['data'])) for event in lesson_rows) + ' 2026'
-        heading = material['title']
+        heading = material['title'] if material else f'Lezione del {day.day} {months[day.month-1]}'
         if len(lesson_rows) == 1:
             heading += '. ' + lesson_rows[0]['argomento']
             topics = ''
         else:
             topics = '\n\n'.join(f"{full_date(date.fromisoformat(event['data']))}: {event['argomento']}" for event in lesson_rows)
-        links = '\n'.join(f"- [{file['text']}]({file['href']})" for file in material['files'])
+        links = '\n'.join(f"- [{file['text']}]({file['href']})" for file in (material['files'] if material else []))
         for event in lesson_rows:
             for file in exercises.get(event['data'],[]):
                 links += f"\n- [{file['text']}]({file['href']})"
         handouts = dict.fromkeys(HANDOUTS[event['data']] for event in lesson_rows if event['data'] in HANDOUTS)
         for handout_name, handout_url in handouts:
             links += f"\n- [Dispensa: {handout_name}]({handout_url})"
-        entries.append(f"::: {{.lesson-entry}}\n::: {{.lesson-date}}\n{dates_text}\n:::\n\n## {heading} {{#{material['id']}}}\n\n{topics}\n\n{links}\n\n:::\n")
+        entries.append(f"::: {{.lesson-entry}}\n::: {{.lesson-date}}\n{dates_text}\n:::\n\n## {heading} {{#{entry_id}}}\n\n{topics}\n\n{links}\n\n:::\n")
 includes=ROOT/'_includes';includes.mkdir(exist_ok=True)
 for name,content in {
  'calendario.md':calendar_table(calendar),

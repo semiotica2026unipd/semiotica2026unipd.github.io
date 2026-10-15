@@ -48,3 +48,18 @@ Lunedì 12 ottobre: Fonetica e fonologia II
 - [Dispensa: Fonetica e fonologia](https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Mercoledì 14 ottobre 2026
+:::
+
+## Lezione del 14 ottobre. Morfologia e sintassi {#lezione-2026-10-14}
+
+
+
+
+- [Esercizio visto in classe il 14 ottobre — PDF](https://tinyurl.com/eserciziofonemi)
+- [Soluzione dell’esercizio del 14 ottobre — PDF](https://tinyurl.com/soluzione14)
+
+:::

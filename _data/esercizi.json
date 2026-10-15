@@ -10,5 +10,17 @@
       "href": "materiali/esercizio2.pdf",
       "text": "Esercizio visto in classe il 7 ottobre — PDF"
     }
+  ],
+  "2026-10-14": [
+    {
+      "href": "https://tinyurl.com/eserciziofonemi",
+      "text": "Esercizio visto in classe il 14 ottobre — PDF",
+      "label": "Esercizio"
+    },
+    {
+      "href": "https://tinyurl.com/soluzione14",
+      "text": "Soluzione dell’esercizio del 14 ottobre — PDF",
+      "label": "Soluzione"
+    }
   ]
 }

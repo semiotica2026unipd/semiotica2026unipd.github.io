@@ -82,7 +82,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 14 ottobre — non disponibili" title="Slide — Mercoledì 14 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
-<td class="esercizi-cell" headers="cal-esercizi"></td>
+<td class="esercizi-cell" headers="cal-esercizi"><a href="https://tinyurl.com/eserciziofonemi" aria-label="Esercizio visto in classe il 14 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span> Esercizio</a><br><a href="https://tinyurl.com/soluzione14" aria-label="Soluzione dell’esercizio del 14 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span> Soluzione</a></td>
 <td class="compiti-cell" headers="cal-compiti">Termine per comunicare gli scambi di data tra gruppi e i nominativi del referente per le comunicazioni e del responsabile dell’organizzazione.</td>
 </tr>
 <tr data-date="2026-10-19">
