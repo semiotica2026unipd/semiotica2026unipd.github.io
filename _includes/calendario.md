@@ -105,7 +105,7 @@
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 20 ottobre — non disponibili" title="Slide — Martedì 20 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
-<td class="esercizi-cell" headers="cal-esercizi"></td>
+<td class="esercizi-cell" headers="cal-esercizi"><a href="https://tinyurl.com/esercizioalberi" aria-label="Esercizio sugli alberi visto in classe il 20 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span> Esercizio alberi</a><br><a href="https://drive.google.com/file/d/1PawC742F4GaFXpb-uW4-TcVRSyoh1OxY/view?usp=sharing" aria-label="Soluzione dell’esercizio sugli alberi del 20 ottobre — PDF"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span> Soluzione</a></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-10-21">

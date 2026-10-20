@@ -63,3 +63,18 @@ Mercoledì 14 ottobre 2026
 - [Soluzione dell’esercizio del 14 ottobre — PDF](https://tinyurl.com/soluzione14)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Martedì 20 ottobre 2026
+:::
+
+## Lezione del 20 ottobre. Sintassi e acquisizione del linguaggio; principi e parametri {#lezione-2026-10-20}
+
+
+
+
+- [Esercizio sugli alberi visto in classe il 20 ottobre — PDF](https://tinyurl.com/esercizioalberi)
+- [Soluzione dell’esercizio sugli alberi del 20 ottobre — PDF](https://drive.google.com/file/d/1PawC742F4GaFXpb-uW4-TcVRSyoh1OxY/view?usp=sharing)
+
+:::
