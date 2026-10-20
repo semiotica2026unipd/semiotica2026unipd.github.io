@@ -115,7 +115,7 @@
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 21 ottobre — non disponibili" title="Slide — Mercoledì 21 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
-<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 1 e 2.</span></td>
+<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 1 e 2 entro domenica 25 ottobre sera (scadenza eccezionale).</span></td>
 </tr>
 <tr data-date="2026-10-26" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">5</td>
@@ -143,7 +143,7 @@
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 28 ottobre — non disponibili" title="Slide — Mercoledì 28 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
-<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 3 e 4.</span></td>
+<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 3 e 4.</span></td>
 </tr>
 <tr data-date="2026-11-02" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">6</td>
@@ -171,7 +171,7 @@
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 4 novembre — non disponibili" title="Slide — Mercoledì 4 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
-<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 5 e 6.</span></td>
+<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 5 e 6.</span></td>
 </tr>
 <tr data-date="2026-11-09" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">7</td>
@@ -237,7 +237,7 @@
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 23 novembre — non disponibili" title="Slide — Lunedì 23 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
-<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 7 e 8.</span></td>
+<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 7 e 8.</span></td>
 </tr>
 <tr data-date="2026-11-24">
 <td class="data-cell" headers="cal-data">Martedì 24 novembre</td>
@@ -265,7 +265,7 @@
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 30 novembre — non disponibili" title="Slide — Lunedì 30 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
-<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 9 e 10.</span></td>
+<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 9 e 10.</span></td>
 </tr>
 <tr data-date="2026-12-01">
 <td class="data-cell" headers="cal-data">Martedì 1 dicembre</td>
@@ -293,7 +293,7 @@
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 7 dicembre — non disponibili" title="Slide — Lunedì 7 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
-<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 11 e 12.</span><br><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande per i gruppi 13 e 14.</span></td>
+<td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 11 e 12.</span><br><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 13 e 14.</span></td>
 </tr>
 <tr data-date="2026-12-08">
 <td class="data-cell" headers="cal-data">Martedì 8 dicembre</td>

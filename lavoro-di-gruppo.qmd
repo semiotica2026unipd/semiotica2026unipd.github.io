@@ -11,15 +11,19 @@ title: "Lavoro di gruppo"
 
 ## Funzionamento
 
-L’attività prevede 14 gruppi, che saranno formati dal docente durante la prima settimana del corso in funzione del numero di studenti aderenti, tenendo conto delle preferenze espresse al momento dell’iscrizione.
+L’attività coinvolge 14 gruppi, formati dal docente in funzione del numero di studenti aderenti e tenendo conto delle preferenze espresse al momento dell’iscrizione.
 
 Il lavoro di gruppo si articola in tre parti:
 
 1. Preparazione di una presentazione. Ogni gruppo presenta una sola volta durante il semestre, nella data indicata nel calendario, sulle parti assegnate di *Le lingue impossibili* di Andrea Moro o di *Come non detto* di Filippo Domaneschi e Carlo Penco.
 
-2. Pubblicazione delle domande sul blog. In preparazione alle presentazioni degli altri gruppi, ciascun gruppo pubblica sul [blog del corso](https://semiotica26unipd.blogspot.com) una domanda per ciascun gruppo che presenterà, relativa alle letture assegnate. La domanda deve indicare un punto che si vorrebbe vedere affrontato durante la presentazione, di modo che che il gruppo destinatario possa tenerne conto nella preparazione. Le domande vanno pubblicate una settimana prima della presentazione; se quel giorno non è prevista una lezione, la scadenza è anticipata alla lezione più vicina andando indietro nel calendario. Le scadenze sono riportate nella colonna “Compiti”. Potrebbero anche esserci un numero limitato di letture di preparazione ad altre lezioni, per alcune delle quali sarà richiesto di postare domande; saranno rese pubbliche nella colonna compiti il prima possibile.
+2. Pubblicazione delle domande e dei commenti sul blog. Prima di ogni lezione dedicata alle presentazioni, ciascun gruppo che non presenta pubblica sul [blog del corso](https://semiotica26unipd.blogspot.com) una domanda o un commento per ciascuno dei due gruppi che presenteranno, relativo alle letture assegnate. Ogni gruppo pubblica quindi due interventi complessivi, nei commenti ai post dedicati ai rispettivi gruppi. Gli interventi devono indicare un aspetto che si vorrebbe vedere affrontato durante la presentazione. I gruppi che presentano ne terranno conto nella preparazione.
 
-3. Partecipazione alla discussione in aula. Durante le lezioni dedicate alle presentazioni, ogni gruppo che non presenta pone una domanda dal vivo. Questo momento permette di discutere quanto è stato esposto e di chiedere chiarimenti o approfondimenti, oltre alle domande già pubblicate sul blog.
+   Di norma, le domande e i commenti vanno pubblicati una settimana prima della presentazione; se quel giorno non è prevista una lezione, la scadenza è anticipata alla lezione più vicina andando indietro nel calendario. Le scadenze sono riportate nella colonna “Compiti e scadenze”. Per le prime presentazioni, previste mercoledì 28 ottobre, la scadenza è eccezionalmente domenica 25 ottobre sera, dato che alcuni studenti stanno ancora ricevendo il libro. Sono disponibili i post per le [domande al gruppo 1 sui capitoli 1–2 di *Le lingue impossibili*](https://semiotica26unipd.blogspot.com/2026/10/domande-al-gruppo-1-le-lingue.html) e per le [domande al gruppo 2 sui capitoli 3–4](https://semiotica26unipd.blogspot.com/2026/10/domande-al-gruppo-2-le-lingue.html).
+
+   Potranno essere assegnate anche alcune letture di preparazione ad altre lezioni, per alcune delle quali sarà richiesto di pubblicare domande. Le indicazioni saranno rese disponibili nella colonna “Compiti e scadenze” il prima possibile.
+
+3. Partecipazione alla discussione in aula. Durante le lezioni dedicate alle presentazioni, ogni gruppo che non presenta pone una domanda di approfondimento su quanto esposto, oltre agli interventi già pubblicati sul blog. I gruppi pari rivolgeranno le loro domande a uno dei due gruppi che presentano, i dispari all’altro. Si stabilirà in aula, il giorno stesso, quale gruppo risponderà ai pari e quale ai dispari. Questo momento permette di discutere quanto è stato esposto e di chiedere chiarimenti o approfondimenti.
 
 ## Organizzazione interna
 
@@ -34,15 +38,17 @@ Questi incarichi di coordinamento fanno parte del lavoro complessivo del gruppo.
 
 Ogni gruppo crea un proprio account Gmail, per esempio `gruppo1semiotica2026@gmail.com`, e ne comunica l’indirizzo al docente.
 
-Il blog è pubblico in lettura: chiunque può leggere i post senza utilizzare l’account del gruppo. La pubblicazione dei commenti è invece riservata al docente e ai 14 account dei gruppi, che saranno invitati come autori. Ogni gruppo pubblicherà le proprie domande utilizzando il proprio account.
+Il blog è pubblico in lettura e chiunque può leggere i post senza utilizzare l’account del gruppo. Per pubblicare domande e commenti, ciascun gruppo deve accedere con il proprio account Google. Per questa attività si utilizzano esclusivamente gli account dei gruppi di lavoro.
+
+Il docente pubblica i post dedicati alle letture assegnate; i gruppi inseriscono le proprie domande e i propri commenti sotto il post del gruppo a cui si rivolgono.
 
 ## Iscrizione
 
-[Iscriviti all’attività di gruppo](https://forms.gle/uiVe4Yv5rFTqnxkk8)
+Le iscrizioni si sono chiuse lunedì 5 ottobre 2026.
 
-È possibile iscriversi individualmente oppure inviare un’unica iscrizione per più persone che desiderano lavorare nello stesso gruppo, indicando nome, cognome e indirizzo e-mail di ciascuna.
+Era possibile iscriversi individualmente oppure inviare un’unica iscrizione per più persone che desideravano lavorare nello stesso gruppo, indicando nome, cognome e indirizzo e-mail di ciascuna.
 
-Il docente formerà i 14 gruppi cercando di rispettare queste preferenze, compatibilmente con una distribuzione equilibrata degli iscritti. L’iscrizione congiunta non garantisce quindi l’assegnazione allo stesso gruppo.
+Il docente ha formato i 14 gruppi cercando di rispettare queste preferenze, compatibilmente con una distribuzione equilibrata degli iscritti. L’iscrizione congiunta non garantiva quindi l’assegnazione allo stesso gruppo.
 
 ## Valutazione e voto finale
 
