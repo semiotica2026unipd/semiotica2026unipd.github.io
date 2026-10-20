@@ -66,6 +66,19 @@ Mercoledì 14 ottobre 2026
 
 ::: {.lesson-entry}
 ::: {.lesson-date}
+Lunedì 19 ottobre 2026
+:::
+
+## Lezione del 19 ottobre. Sintassi {#sintassi-1}
+
+
+
+- [Slide di sintassi — presentazione HTML con video](materiali/sintassi-1.html)
+
+:::
+
+::: {.lesson-entry}
+::: {.lesson-date}
 Martedì 20 ottobre 2026
 :::
 

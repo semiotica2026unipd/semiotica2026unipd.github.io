@@ -44,5 +44,18 @@
         "text": "PDF delle slide su fonetica e fonologia"
       }
     ]
+  },
+  {
+    "id": "sintassi-1",
+    "title": "Lezione del 19 ottobre",
+    "dates": [
+      "2026-10-19"
+    ],
+    "files": [
+      {
+        "href": "materiali/sintassi-1.html",
+        "text": "Slide di sintassi — presentazione HTML con video"
+      }
+    ]
   }
 ]

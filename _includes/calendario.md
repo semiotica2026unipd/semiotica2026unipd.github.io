@@ -94,7 +94,7 @@
 <td class="data-cell" headers="cal-data">Lunedì 19 ottobre</td>
 <td class="argomento-cell" headers="cal-argomento">Sintassi</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 19 ottobre — non disponibili" title="Slide — Lunedì 19 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="materiali/sintassi-1.html" aria-label="Materiali — Lezione del 19 ottobre" title="Materiali — Lezione del 19 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
