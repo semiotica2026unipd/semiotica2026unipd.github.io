@@ -91,3 +91,16 @@ Martedì 20 ottobre 2026
 - [Soluzione dell’esercizio sugli alberi del 20 ottobre — PDF](https://drive.google.com/file/d/1PawC742F4GaFXpb-uW4-TcVRSyoh1OxY/view?usp=sharing)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Mercoledì 21 ottobre 2026
+:::
+
+## Lezione del 21 ottobre. Sintassi: domande e alberi; per leggere Moro {#sintassi-2}
+
+
+
+- [PDF delle slide — Sintassi: domande e alberi; per leggere Moro](https://drive.google.com/file/d/1aiBLTNBZE9Gcpas7XxRTwjRlVZAQRqUm/view?usp=sharing)
+
+:::

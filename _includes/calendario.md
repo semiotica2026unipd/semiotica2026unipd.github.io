@@ -110,9 +110,9 @@
 </tr>
 <tr data-date="2026-10-21">
 <td class="data-cell" headers="cal-data">Mercoledì 21 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica: le condizioni di verità e i mondi possibili; arbitrarietà e iconicità</td>
+<td class="argomento-cell" headers="cal-argomento">Sintassi: domande e alberi; per leggere Moro</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 21 ottobre — non disponibili" title="Slide — Mercoledì 21 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1aiBLTNBZE9Gcpas7XxRTwjRlVZAQRqUm/view?usp=sharing" aria-label="Materiali — Lezione del 21 ottobre" title="Materiali — Lezione del 21 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 1 e 2 entro domenica 25 ottobre sera (scadenza eccezionale).</span></td>
@@ -120,7 +120,7 @@
 <tr data-date="2026-10-26" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">5</td>
 <td class="data-cell" headers="cal-data">Lunedì 26 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica: i connettivi, la composizionalità, la conseguenza logica</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica: le condizioni di verità e i mondi possibili; arbitrarietà e iconicità</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 26 ottobre — non disponibili" title="Slide — Lunedì 26 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
@@ -129,7 +129,7 @@
 </tr>
 <tr data-date="2026-10-27">
 <td class="data-cell" headers="cal-data">Martedì 27 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica e pragmatica: il contesto condiviso, le asserzioni e le presupposizioni</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica: i connettivi, la composizionalità, la conseguenza logica</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 27 ottobre — non disponibili" title="Slide — Martedì 27 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
@@ -148,7 +148,7 @@
 <tr data-date="2026-11-02" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">6</td>
 <td class="data-cell" headers="cal-data">Lunedì 2 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Il significato della musica</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica e pragmatica: il contesto condiviso, le asserzioni e le presupposizioni</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 2 novembre — non disponibili" title="Slide — Lunedì 2 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>

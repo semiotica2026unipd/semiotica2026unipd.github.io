@@ -57,5 +57,18 @@
         "text": "Slide di sintassi — presentazione HTML con video"
       }
     ]
+  },
+  {
+    "id": "sintassi-2",
+    "title": "Lezione del 21 ottobre",
+    "dates": [
+      "2026-10-21"
+    ],
+    "files": [
+      {
+        "href": "https://drive.google.com/file/d/1aiBLTNBZE9Gcpas7XxRTwjRlVZAQRqUm/view?usp=sharing",
+        "text": "PDF delle slide — Sintassi: domande e alberi; per leggere Moro"
+      }
+    ]
   }
 ]
