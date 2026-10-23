@@ -18,7 +18,7 @@ HANDOUTS = {
     '2026-10-12': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
 }
 with (ROOT/'_data/calendario.csv').open(encoding='utf-8',newline='') as f:
-    events = sorted(csv.DictReader(f),key=lambda row:row['data'])
+    events = sorted(csv.DictReader(f),key=lambda row:row['data'] or '9999-12-31')
 materials = json.loads((ROOT/'_data/slides.json').read_text(encoding='utf-8'))
 exercises = json.loads((ROOT/'_data/esercizi.json').read_text(encoding='utf-8'))
 slides = {}
@@ -26,10 +26,11 @@ for material in materials:
     for day in material['dates']:
         if day in slides: raise ValueError('Materiali duplicati per una lezione.')
         slides[day] = material
-dates = [date.fromisoformat(row['data']) for row in events]
-if len(dates)!=len(set(dates)):
+dates = [date.fromisoformat(row['data']) if row['data'] else None for row in events]
+scheduled_dates = [day for day in dates if day is not None]
+if len(scheduled_dates)!=len(set(scheduled_dates)):
     raise ValueError('Il calendario contiene due righe con la stessa data.')
-lesson_dates = [d for row,d in zip(events,dates) if row['lezione']=='si']
+lesson_dates = [d for row,d in zip(events,dates) if row['lezione']=='si' and d is not None]
 if set(slides)-{d.isoformat() for d in lesson_dates}:
     raise ValueError('Una data delle slide non corrisponde a una lezione.')
 if set(exercises)-{d.isoformat() for d in lesson_dates}:
@@ -48,7 +49,8 @@ for row,day in zip(events,dates):
 
 weekdays=['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica']
 months=['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre']
-def full_date(day):return f'{weekdays[day.weekday()]} {day.day} {months[day.month-1]}'
+def full_date(day):
+    return f'{weekdays[day.weekday()]} {day.day} {months[day.month-1]}' if day else 'Data da destinarsi'
 def italic(text):return re.sub(r'\*([^*]+)\*',r'<em>\1</em>',escape(text))
 def icon(kind,label,href=None):
     symbol={'preparazione':'book','slides':'easel','dispensa':'file-earmark-pdf','esercizi':'file-earmark-pdf'}[kind]
@@ -81,8 +83,8 @@ def calendar_table(rows):
     lines += ['</tr></thead>', '<tbody>']
     keys = [row['data'] for row in events]
     # Un solo tbody conserva le celle dei materiali unite anche fra settimane.
-    first_monday = dates[0] - timedelta(days=dates[0].weekday())
-    weeks = [(day - first_monday).days // 7 + 1 for day in dates]
+    first_monday = scheduled_dates[0] - timedelta(days=scheduled_dates[0].weekday())
+    weeks = [(day - first_monday).days // 7 + 1 if day else None for day in dates]
     shared_targets = {
         'slides': [slide_target(slides.get(key)) for key in keys],
         'dispensa': [HANDOUTS.get(key, (None, None))[1] for key in keys],
@@ -95,7 +97,8 @@ def calendar_table(rows):
             week_span = 1
             while index+week_span < len(rows) and weeks[index+week_span] == weeks[index]:
                 week_span += 1
-            lines.append(f'<td class="settimana-cell" headers="cal-settimana" rowspan="{week_span}">{weeks[index]}</td>')
+            week_label = weeks[index] if weeks[index] is not None else ''
+            lines.append(f'<td class="settimana-cell" headers="cal-settimana" rowspan="{week_span}">{week_label}</td>')
         for col,(cls,cell) in enumerate(zip(classes,cells)):
             rowspan = 1
             targets = shared_targets.get(cls)
@@ -114,6 +117,8 @@ for row,day in zip(events,dates):
     key=row['data'];date_text=full_date(day)
     if row['provvisoria']=='si':date_text+='<br><span class="tentative">da confermare</span>'
     topic=escape(row['argomento'])
+    if row.get('collegamento'):
+        topic=f'<a href="{escape(row["collegamento"],quote=True)}">{topic}</a>'
     for group,reading in groups(row):
         topic+=f'<span class="presentation-group">Gruppo {group}: {italic(reading)}</span>'
         presentations.append([date_text,group,reading])
@@ -162,4 +167,5 @@ for name,content in {
  'presentazioni.md':table(['Data','Gruppo','Letture assegnate'],presentations),
  'lezioni.md':'\n'.join(entries),
 }.items():(includes/name).write_text(content,encoding='utf-8')
-print(f'Calendario: {len(events)} righe, {len(lesson_dates)} incontri, {len(presentations)} gruppi, {sum(map(len,deadlines.values()))} scadenze.')
+lesson_count = sum(row['lezione']=='si' for row in events)
+print(f'Calendario: {len(events)} righe, {lesson_count} incontri ({lesson_count-len(lesson_dates)} da fissare), {len(presentations)} gruppi, {sum(map(len,deadlines.values()))} scadenze.')
