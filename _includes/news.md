@@ -25,5 +25,5 @@
 <button id="news-more" type="button" aria-controls="news-list" hidden>Vedi più news</button>
 <button id="news-less" type="button" aria-controls="news-list" hidden>Vedi meno</button>
 </div>
-<script src="assets/news.js" defer></script>
+<script src="assets/news.js?v=289b28e10c5c" defer></script>
 ```

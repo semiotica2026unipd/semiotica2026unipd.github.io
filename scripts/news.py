@@ -1,5 +1,6 @@
 """Genera le News datate; la paginazione viene applicata nel browser."""
 from datetime import date
+from hashlib import sha256
 from html import escape
 from pathlib import Path
 import json
@@ -34,8 +35,9 @@ for item in news:
         lines.append('</ul></li>')
     else:
         lines.append(f'<li><time datetime="{day.isoformat()}">{label}</time>: {inline_links(item["text"])}</li>')
+asset_version = sha256((ROOT / 'assets/news.js').read_bytes()).hexdigest()[:12]
 lines += ['</ul>', '<button id="news-more" type="button" aria-controls="news-list" hidden>Vedi più news</button>',
           '<button id="news-less" type="button" aria-controls="news-list" hidden>Vedi meno</button>',
-          '</div>', '<script src="assets/news.js" defer></script>', '```', '']
+          '</div>', f'<script src="assets/news.js?v={asset_version}" defer></script>', '```', '']
 (ROOT / '_includes/news.md').write_text('\n'.join(lines), encoding='utf-8')
 print(f'News: {len(news)} avvisi datati.')
