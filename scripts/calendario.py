@@ -135,9 +135,6 @@ for row,day in zip(events,dates):
     for presentation in deadlines[day]:
         numbers=' e '.join(group for group,_ in groups(presentation))
         deadline_text=f'Postare sul blog domande o commenti per i gruppi {numbers}'
-        # La prima scadenza è prorogata; il promemoria resta nell’ultima lezione precedente.
-        if presentation['data'] == '2026-10-28':
-            deadline_text+=' entro domenica 25 ottobre sera (scadenza eccezionale)'
         due.append('<span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> '
                    f'{deadline_text}.</span>')
     calendar.append([date_text,topic,preparation,slide,handout,exercise_links,'<br>'.join(due)])

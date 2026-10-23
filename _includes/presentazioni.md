@@ -1,7 +1,7 @@
 | Data | Gruppo | Letture assegnate |
 | :--- | :--- | :--- |
-| Mercoledì 28 ottobre | 1 | capp. 1–2 di *Le lingue impossibili*. |
-| Mercoledì 28 ottobre | 2 | capp. 3–4 di *Le lingue impossibili*. |
+| Martedì 3 novembre | 1 | capp. 1–2 di *Le lingue impossibili*. |
+| Martedì 3 novembre | 2 | capp. 3–4 di *Le lingue impossibili*. |
 | Mercoledì 4 novembre | 3 | capp. 5–6 di *Le lingue impossibili*. |
 | Mercoledì 4 novembre | 4 | capp. 7–8 di *Le lingue impossibili*. |
 | Mercoledì 11 novembre | 5 | capp. 9–11 di *Le lingue impossibili*. |

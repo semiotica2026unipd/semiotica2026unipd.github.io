@@ -1,6 +1,7 @@
 ```{=html}
 <div class="course-news">
 <ul id="news-list">
+<li><time datetime="2026-10-23">23 ottobre 2026</time>: Per dare ai primi gruppi più tempo per prepararsi, le presentazioni dei gruppi 1 e 2 sono posticipate dal 28 ottobre (data originale) al 3 novembre (nuova data). Di conseguenza, la scadenza per pubblicare domande e commenti per i gruppi 1 e 2 sul blog è prorogata a martedì 27 ottobre. Le date delle altre presentazioni restano invariate.</li>
 <li><time datetime="2026-10-12">12 ottobre 2026</time>: Sono disponibili le dispense sulle presupposizioni e su fonetica e fonologia. Ci saranno ancora piccole revisioni e aggiustamenti, ma potete già utilizzarle come materiale di studio. Ricordo che la versione definitiva sarà pubblicata all’inizio di dicembre e riunirà in un unico documento i capitoli dedicati alle diverse parti del corso.</li>
 <li><time datetime="2026-10-08">8 ottobre 2026</time><ul class="news-sections">
 <li><strong>Contenuti e prossime lezioni</strong><ul>
