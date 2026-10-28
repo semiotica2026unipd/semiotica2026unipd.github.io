@@ -82,7 +82,7 @@ Lunedì 19 ottobre 2026
 Martedì 20 ottobre 2026
 :::
 
-## Lezione del 20 ottobre. Sintassi e acquisizione del linguaggio; principi e parametri {#lezione-2026-10-20}
+## Lezione del 20 ottobre. Sintassi {#lezione-2026-10-20}
 
 
 
@@ -102,5 +102,18 @@ Mercoledì 21 ottobre 2026
 
 
 - [PDF delle slide — Sintassi: domande e alberi; per leggere Moro](https://drive.google.com/file/d/1aiBLTNBZE9Gcpas7XxRTwjRlVZAQRqUm/view?usp=sharing)
+
+:::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Martedì 27 ottobre 2026
+:::
+
+## Lezione del 27 ottobre. Sintassi e acquisizione del linguaggio {#sintassi-3}
+
+
+
+- [PDF delle slide — Sintassi e acquisizione del linguaggio](materiali/sintassi-3.pdf)
 
 :::

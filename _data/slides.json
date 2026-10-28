@@ -70,5 +70,18 @@
         "text": "PDF delle slide — Sintassi: domande e alberi; per leggere Moro"
       }
     ]
+  },
+  {
+    "id": "sintassi-3",
+    "title": "Lezione del 27 ottobre",
+    "dates": [
+      "2026-10-27"
+    ],
+    "files": [
+      {
+        "href": "materiali/sintassi-3.pdf",
+        "text": "PDF delle slide — Sintassi e acquisizione del linguaggio"
+      }
+    ]
   }
 ]
