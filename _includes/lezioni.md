@@ -114,6 +114,6 @@ Martedì 27 ottobre 2026
 
 
 
-- [PDF delle slide — Sintassi e acquisizione del linguaggio](materiali/sintassi-3.pdf)
+- [PDF delle slide — Sintassi e acquisizione del linguaggio](https://drive.google.com/file/d/1rsCoV4SEagmQvMK1otWwAOqEWAu_Z3Ax/view?usp=sharing)
 
 :::

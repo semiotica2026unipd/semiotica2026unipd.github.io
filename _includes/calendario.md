@@ -131,7 +131,7 @@
 <td class="data-cell" headers="cal-data">Martedì 27 ottobre</td>
 <td class="argomento-cell" headers="cal-argomento">Sintassi e acquisizione del linguaggio</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="materiali/sintassi-3.pdf" aria-label="Materiali — Lezione del 27 ottobre" title="Materiali — Lezione del 27 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1rsCoV4SEagmQvMK1otWwAOqEWAu_Z3Ax/view?usp=sharing" aria-label="Materiali — Lezione del 27 ottobre" title="Materiali — Lezione del 27 ottobre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 1 e 2.</span></td>
