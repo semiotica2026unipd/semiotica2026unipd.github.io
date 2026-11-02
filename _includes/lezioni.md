@@ -117,3 +117,18 @@ Martedì 27 ottobre 2026
 - [PDF delle slide — Sintassi e acquisizione del linguaggio](https://drive.google.com/file/d/1rsCoV4SEagmQvMK1otWwAOqEWAu_Z3Ax/view?usp=sharing)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Mercoledì 28 ottobre 2026
+:::
+
+## Lezione del 28 ottobre. How to Speak di Patrick Winston {#lezione-2026-10-28}
+
+
+
+
+- [How to Speak — video](https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/)
+- [Traduzione italiana della trascrizione — PDF](https://drive.google.com/file/d/1dfZ6TLcSSedrFgUZdd71Z9TOuFXToZ8D/view?usp=sharing)
+
+:::

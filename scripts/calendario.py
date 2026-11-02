@@ -21,6 +21,7 @@ with (ROOT/'_data/calendario.csv').open(encoding='utf-8',newline='') as f:
     events = sorted(csv.DictReader(f),key=lambda row:row['data'] or '9999-12-31')
 materials = json.loads((ROOT/'_data/slides.json').read_text(encoding='utf-8'))
 exercises = json.loads((ROOT/'_data/esercizi.json').read_text(encoding='utf-8'))
+resources = json.loads((ROOT/'_data/risorse.json').read_text(encoding='utf-8'))
 slides = {}
 for material in materials:
     for day in material['dates']:
@@ -35,6 +36,8 @@ if set(slides)-{d.isoformat() for d in lesson_dates}:
     raise ValueError('Una data delle slide non corrisponde a una lezione.')
 if set(exercises)-{d.isoformat() for d in lesson_dates}:
     raise ValueError('Una data degli esercizi non corrisponde a una lezione.')
+if set(resources)-{d.isoformat() for d in lesson_dates}:
+    raise ValueError('Una data delle risorse non corrisponde a una lezione.')
 
 def groups(row):
     return [(row[f'gruppo_{i}'],row[f'letture_{i}']) for i in (1,2) if row[f'gruppo_{i}']]
@@ -52,6 +55,15 @@ months=['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto
 def full_date(day):
     return f'{weekdays[day.weekday()]} {day.day} {months[day.month-1]}' if day else 'Data da destinarsi'
 def italic(text):return re.sub(r'\*([^*]+)\*',r'<em>\1</em>',escape(text))
+def topic_links(text):
+    """Consente collegamenti Markdown nell'argomento, mantenendo il resto come testo."""
+    parts, start = [], 0
+    for match in re.finditer(r'\[([^\]]+)\]\((https?://[^\s)]+)\)', text):
+        parts += [escape(text[start:match.start()]),
+                  f'<a href="{escape(match[2], quote=True)}">{escape(match[1])}</a>']
+        start = match.end()
+    parts.append(escape(text[start:]))
+    return ''.join(parts)
 def icon(kind,label,href=None):
     symbol={'preparazione':'book','slides':'easel','dispensa':'file-earmark-pdf','esercizi':'file-earmark-pdf'}[kind]
     glyph=f'<span class="bi bi-{symbol}" aria-hidden="true"></span>'
@@ -116,7 +128,7 @@ calendar, presentations, entries = [],[],[]
 for row,day in zip(events,dates):
     key=row['data'];date_text=full_date(day)
     if row['provvisoria']=='si':date_text+='<br><span class="tentative">da confermare</span>'
-    topic=escape(row['argomento'])
+    topic=topic_links(row['argomento'])
     if row.get('collegamento'):
         topic=f'<a href="{escape(row["collegamento"],quote=True)}">{topic}</a>'
     for group,reading in groups(row):
@@ -143,19 +155,21 @@ for row,day in zip(events,dates):
         due.append('<span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> '
                    f'{deadline_text}.</span>')
     calendar.append([date_text,topic,preparation,slide,handout,exercise_links,'<br>'.join(due)])
-    if (material and key == material['dates'][0]) or (not material and exercises.get(key)):
+    if (material and key == material['dates'][0]) or (not material and (exercises.get(key) or resources.get(key))):
         lesson_rows = [event for event in events if event['data'] in material['dates']] if material else [row]
         entry_id = material['id'] if material else f'lezione-{key}'
         dates_text = ' e '.join(full_date(date.fromisoformat(event['data'])) for event in lesson_rows) + ' 2026'
         heading = material['title'] if material else f'Lezione del {day.day} {months[day.month-1]}'
         if len(lesson_rows) == 1:
-            heading += '. ' + lesson_rows[0]['argomento']
+            heading += '. ' + resources.get(key, {}).get('title', lesson_rows[0]['argomento'])
             topics = ''
         else:
             topics = '\n\n'.join(f"{full_date(date.fromisoformat(event['data']))}: {event['argomento']}" for event in lesson_rows)
         links = '\n'.join(f"- [{file['text']}]({file['href']})" for file in (material['files'] if material else []))
         for event in lesson_rows:
             for file in exercises.get(event['data'],[]):
+                links += f"\n- [{file['text']}]({file['href']})"
+            for file in resources.get(event['data'], {}).get('files', []):
                 links += f"\n- [{file['text']}]({file['href']})"
         handouts = dict.fromkeys(HANDOUTS[event['data']] for event in lesson_rows if event['data'] in HANDOUTS)
         for handout_name, handout_url in handouts:

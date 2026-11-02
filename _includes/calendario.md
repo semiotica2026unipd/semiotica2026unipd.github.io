@@ -138,7 +138,7 @@
 </tr>
 <tr data-date="2026-10-28">
 <td class="data-cell" headers="cal-data">Mercoledì 28 ottobre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica: le condizioni di verità e i mondi possibili; arbitrarietà e iconicità</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica: le condizioni di verità e i mondi possibili; arbitrarietà e iconicità; “How to Speak” di Patrick Winston (<a href="https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/">video</a>; <a href="https://drive.google.com/file/d/1dfZ6TLcSSedrFgUZdd71Z9TOuFXToZ8D/view?usp=sharing">traduzione della trascrizione</a>)</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 28 ottobre — non disponibili" title="Slide — Mercoledì 28 ottobre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
