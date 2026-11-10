@@ -132,3 +132,43 @@ Mercoledì 28 ottobre 2026
 - [Traduzione italiana della trascrizione — PDF](https://drive.google.com/file/d/1dfZ6TLcSSedrFgUZdd71Z9TOuFXToZ8D/view?usp=sharing)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Lunedì 2 novembre 2026
+:::
+
+## Lezione del 2 novembre. Semantica e pragmatica. Condizioni di verità, conseguenza logica e informazioni condivise {#semantica-e-pragmatica}
+
+
+
+- [Slide – Semantica e pragmatica](https://drive.google.com/file/d/1d3W-AVkOiMBqLNwGemzpkM3Et6LzwOvv/view?usp=sharing)
+
+:::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Lunedì 9 novembre 2026
+:::
+
+## Lezione del 9 novembre. Pragmatica 1. Significato letterale, massime di Grice e implicature conversazionali {#pragmatica-1}
+
+
+
+- [Slide – Pragmatica 1](https://drive.google.com/file/d/1Sc3qjRj06siBquEpIBTXDji_NKZLEboF/view?usp=sharing)
+
+:::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Martedì 10 novembre 2026
+:::
+
+## Lezione del 10 novembre. Pragmatica 2. Implicature scalari, teoria della mente e domanda in discussione {#pragmatica-2}
+
+
+
+- [Slide – Pragmatica 2](https://drive.google.com/file/d/1PvyIW4S7wLt3qMoBIff9l10UlFZzXIIR/view?usp=sharing)
+- [Esercizio – La gara di Lea](https://drive.google.com/file/d/1DPrEv0VTPx07C-Ku3OLvivoOFhjWW5Wv/view?usp=sharing)
+
+:::

@@ -83,5 +83,44 @@
         "text": "PDF delle slide — Sintassi e acquisizione del linguaggio"
       }
     ]
+  },
+  {
+    "id": "semantica-e-pragmatica",
+    "title": "Lezione del 2 novembre",
+    "dates": [
+      "2026-11-02"
+    ],
+    "files": [
+      {
+        "href": "https://drive.google.com/file/d/1d3W-AVkOiMBqLNwGemzpkM3Et6LzwOvv/view?usp=sharing",
+        "text": "Slide – Semantica e pragmatica"
+      }
+    ]
+  },
+  {
+    "id": "pragmatica-1",
+    "title": "Lezione del 9 novembre",
+    "dates": [
+      "2026-11-09"
+    ],
+    "files": [
+      {
+        "href": "https://drive.google.com/file/d/1Sc3qjRj06siBquEpIBTXDji_NKZLEboF/view?usp=sharing",
+        "text": "Slide – Pragmatica 1"
+      }
+    ]
+  },
+  {
+    "id": "pragmatica-2",
+    "title": "Lezione del 10 novembre",
+    "dates": [
+      "2026-11-10"
+    ],
+    "files": [
+      {
+        "href": "https://drive.google.com/file/d/1PvyIW4S7wLt3qMoBIff9l10UlFZzXIIR/view?usp=sharing",
+        "text": "Slide – Pragmatica 2"
+      }
+    ]
   }
 ]

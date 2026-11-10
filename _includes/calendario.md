@@ -148,9 +148,9 @@
 <tr data-date="2026-11-02" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">6</td>
 <td class="data-cell" headers="cal-data">Lunedì 2 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica: i connettivi, la composizionalità, la conseguenza logica</td>
+<td class="argomento-cell" headers="cal-argomento">Semantica e pragmatica. Condizioni di verità, conseguenza logica e informazioni condivise</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 2 novembre — non disponibili" title="Slide — Lunedì 2 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1d3W-AVkOiMBqLNwGemzpkM3Et6LzwOvv/view?usp=sharing" aria-label="Materiali — Lezione del 2 novembre" title="Materiali — Lezione del 2 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
@@ -176,20 +176,20 @@
 <tr data-date="2026-11-09" class="week-start">
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">7</td>
 <td class="data-cell" headers="cal-data">Lunedì 9 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Semantica e pragmatica: il contesto condiviso, le asserzioni e le presupposizioni</td>
+<td class="argomento-cell" headers="cal-argomento">Pragmatica 1. Significato letterale, massime di Grice e implicature conversazionali</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Lunedì 9 novembre — non disponibili" title="Slide — Lunedì 9 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1Sc3qjRj06siBquEpIBTXDji_NKZLEboF/view?usp=sharing" aria-label="Materiali — Lezione del 9 novembre" title="Materiali — Lezione del 9 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-10">
 <td class="data-cell" headers="cal-data">Martedì 10 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Pragmatica: il significato letterale, le implicature scalari, Grice e il principio di cooperazione; le implicature conversazionali in generale</td>
+<td class="argomento-cell" headers="cal-argomento">Pragmatica 2. Implicature scalari, teoria della mente e domanda in discussione</td>
 <td class="preparazione-cell" headers="cal-preparazione"><span class="material-icon unavailable" role="img" aria-label="Preparazione non disponibile" title="Preparazione non disponibile"><span class="bi bi-book" aria-hidden="true"></span></span></td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 10 novembre — non disponibili" title="Slide — Martedì 10 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1PvyIW4S7wLt3qMoBIff9l10UlFZzXIIR/view?usp=sharing" aria-label="Materiali — Lezione del 10 novembre" title="Materiali — Lezione del 10 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
-<td class="esercizi-cell" headers="cal-esercizi"></td>
+<td class="esercizi-cell" headers="cal-esercizi"><a class="material-icon" href="https://drive.google.com/file/d/1DPrEv0VTPx07C-Ku3OLvivoOFhjWW5Wv/view?usp=sharing" aria-label="Esercizio – La gara di Lea" title="Esercizio – La gara di Lea"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></a></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-11">
