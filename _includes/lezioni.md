@@ -168,7 +168,34 @@ Martedì 10 novembre 2026
 
 
 
-- [Slide – Pragmatica 2](https://drive.google.com/file/d/1PvyIW4S7wLt3qMoBIff9l10UlFZzXIIR/view?usp=sharing)
-- [Esercizio – La gara di Lea](https://drive.google.com/file/d/1DPrEv0VTPx07C-Ku3OLvivoOFhjWW5Wv/view?usp=sharing)
+- [Slide – Pragmatica 2 rivista](https://drive.google.com/file/d/1tcRqZyStQLInKLIeuomvvY5FHEDyLrqp/view?usp=sharing)
+- [Correzione – La gara di Lea](https://drive.google.com/file/d/1ZGBnDd06vz8fk_8e-kh3W-9YQUCluRQ0/view?usp=sharing)
+
+:::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Lunedì 16 novembre 2026
+:::
+
+## Lezione del 16 novembre. Pragmatica 3. Le domande implicite e la massima di Relazione {#pragmatica-3}
+
+
+
+- [Slide – Pragmatica 2 rivista](https://drive.google.com/file/d/1tcRqZyStQLInKLIeuomvvY5FHEDyLrqp/view?usp=sharing)
+
+:::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Martedì 17 novembre 2026
+:::
+
+## Lezione del 17 novembre. Esercitazione. Età, patente e implicature scalari {#lezione-2026-11-17}
+
+
+
+
+- [Correzione – «Ha diciotto anni?»](https://drive.google.com/file/d/1lLKc0ta_406LieEEkAcQACsKz8oy_GBz/view?usp=sharing)
 
 :::
