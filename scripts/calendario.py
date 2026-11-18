@@ -65,7 +65,7 @@ def topic_links(text):
     parts.append(escape(text[start:]))
     return ''.join(parts)
 def icon(kind,label,href=None):
-    symbol={'preparazione':'book','slides':'easel','dispensa':'file-earmark-pdf','esercizi':'file-earmark-pdf'}[kind]
+    symbol={'slides':'easel','dispensa':'file-earmark-pdf','esercizi':'file-earmark-pdf'}[kind]
     glyph=f'<span class="bi bi-{symbol}" aria-hidden="true"></span>'
     label=escape(label,quote=True)
     if href:return f'<a class="material-icon" href="{escape(href,quote=True)}" aria-label="{label}" title="{label}">{glyph}</a>'
@@ -87,8 +87,8 @@ def slide_target(material):
     return material['files'][0]['href'] if len(material['files']) == 1 else f"lezioni.html#{material['id']}"
 
 def calendar_table(rows):
-    names = ['Data','Argomento','Preparazione','Slides','Dispensa','Esercizi visti in classe','Compiti e scadenze']
-    classes = ['data','argomento','preparazione','slides','dispensa','esercizi','compiti']
+    names = ['Data','Argomento','Slides','Dispensa','Esercizi visti in classe','Compiti e scadenze']
+    classes = ['data','argomento','slides','dispensa','esercizi','compiti']
     lines = ['```{=html}', '<table class="table course-calendar">', '<thead><tr>',
              '<th id="cal-settimana" scope="col">Settimana</th>']
     lines += [f'<th id="cal-{cls}" scope="col">{name}</th>' for cls,name in zip(classes,names)]
@@ -134,7 +134,6 @@ for row,day in zip(events,dates):
     for group,reading in groups(row):
         topic+=f'<span class="presentation-group">Gruppo {group}: {italic(reading)}</span>'
         presentations.append([date_text,group,reading])
-    preparation=icon('preparazione','Preparazione non disponibile')
     material=slides.get(key)
     target = slide_target(material)
     label = f'Slide — {full_date(day)} — non disponibili'
@@ -154,7 +153,7 @@ for row,day in zip(events,dates):
         deadline_text=f'Postare sul blog domande o commenti per i gruppi {numbers}'
         due.append('<span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> '
                    f'{deadline_text}.</span>')
-    calendar.append([date_text,topic,preparation,slide,handout,exercise_links,'<br>'.join(due)])
+    calendar.append([date_text,topic,slide,handout,exercise_links,'<br>'.join(due)])
     if (material and key == material['dates'][0]) or (not material and (exercises.get(key) or resources.get(key))):
         lesson_rows = [event for event in events if event['data'] in material['dates']] if material else [row]
         entry_id = material['id'] if material else f'lezione-{key}'

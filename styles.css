@@ -70,12 +70,10 @@ h2 { font-size: 1.4rem; font-weight: 600; margin-top: 2rem; }
 /* Logo completo, senza un secondo titolo nella barra laterale. */
 .sidebar-logo { width: 176px; max-width: 100%; height: auto; object-fit: contain; }
 .sidebar-logo-link { margin-bottom: .25rem; }
-/* Calendario a simboli: letture, slide e PDF, con stati non disponibili. */
+/* Calendario a simboli: slide e PDF, con stati non disponibili. */
 .course-schedule table { min-width: 790px; }
-.course-schedule #cal-preparazione,
 .course-schedule #cal-slides,
 .course-schedule #cal-dispensa,
-.course-schedule td.preparazione-cell,
 .course-schedule td.slides-cell,
 .course-schedule td.dispensa-cell { text-align: center !important; }
 .course-schedule th { font-size: .86rem; }
@@ -107,12 +105,11 @@ a.material-icon:hover { background: #f0e7f0; border-radius: .25rem; }
 .course-schedule table colgroup { display: none; }
 .course-schedule #cal-settimana { width: 8%; text-align: center; }
 .course-schedule #cal-data { width: 11%; }
-.course-schedule #cal-argomento { width: 30%; }
-.course-schedule #cal-preparazione { width: 9%; }
+.course-schedule #cal-argomento { width: 35%; }
 .course-schedule #cal-slides { width: 6%; }
 .course-schedule #cal-dispensa { width: 7%; }
 .course-schedule #cal-esercizi { width: 13%; }
-.course-schedule #cal-compiti { width: 16%; }
+.course-schedule #cal-compiti { width: 20%; }
 .course-schedule #cal-esercizi, .course-schedule td.esercizi-cell { text-align: center !important; }
 .course-schedule td.data-cell { white-space: normal; }
 .course-schedule td.settimana-cell { text-align: center; vertical-align: middle; font-variant-numeric: tabular-nums; background: #fff; }
