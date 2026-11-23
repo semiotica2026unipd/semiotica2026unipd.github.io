@@ -199,3 +199,16 @@ Martedì 17 novembre 2026
 - [Correzione – «Ha diciotto anni?»](https://drive.google.com/file/d/1lLKc0ta_406LieEEkAcQACsKz8oy_GBz/view?usp=sharing)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Lunedì 23 novembre 2026
+:::
+
+## Lezione del 23 novembre. Il significato della musica {#musica}
+
+
+
+- [Slide – Il significato della musica](https://drive.google.com/file/d/16pRAtzGFPs30VT_4wjw1ZmnUJCH28iu7/view?usp=sharing)
+
+:::

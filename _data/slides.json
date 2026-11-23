@@ -135,5 +135,18 @@
         "text": "Slide – Pragmatica 2 rivista"
       }
     ]
+  },
+  {
+    "id": "musica",
+    "title": "Lezione del 23 novembre",
+    "dates": [
+      "2026-11-23"
+    ],
+    "files": [
+      {
+        "href": "https://drive.google.com/file/d/16pRAtzGFPs30VT_4wjw1ZmnUJCH28iu7/view?usp=sharing",
+        "text": "Slide – Il significato della musica"
+      }
+    ]
   }
 ]
