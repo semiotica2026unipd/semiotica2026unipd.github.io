@@ -206,23 +206,22 @@
 <td class="settimana-cell" headers="cal-settimana" rowspan="3">9</td>
 <td class="data-cell" headers="cal-data">Lunedì 23 novembre</td>
 <td class="argomento-cell" headers="cal-argomento">Il significato della musica</td>
-<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/16pRAtzGFPs30VT_4wjw1ZmnUJCH28iu7/view?usp=sharing" aria-label="Materiali — Lezione del 23 novembre" title="Materiali — Lezione del 23 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
+<td class="slides-cell" headers="cal-slides" rowspan="2"><a class="material-icon" href="https://drive.google.com/file/d/16pRAtzGFPs30VT_4wjw1ZmnUJCH28iu7/view?usp=sharing" aria-label="Materiali — Lezioni del 23 e 24 novembre" title="Materiali — Lezioni del 23 e 24 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"><span class="deadline"><span class="deadline-icon" aria-hidden="true">💬</span> Postare sul blog domande o commenti per i gruppi 7 e 8.</span></td>
 </tr>
 <tr data-date="2026-11-24">
 <td class="data-cell" headers="cal-data">Martedì 24 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Comunicazione animale</td>
-<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1zCPoVnuXYmouK7brsB51P_10XxjgI4A_/view?usp=sharing" aria-label="Materiali — Lezione del 24 novembre" title="Materiali — Lezione del 24 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
+<td class="argomento-cell" headers="cal-argomento">Il significato della musica</td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
 </tr>
 <tr data-date="2026-11-25">
 <td class="data-cell" headers="cal-data">Mercoledì 25 novembre</td>
-<td class="argomento-cell" headers="cal-argomento">Sociolinguistica</td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 25 novembre — non disponibili" title="Slide — Mercoledì 25 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="argomento-cell" headers="cal-argomento">Comunicazione animale</td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1zCPoVnuXYmouK7brsB51P_10XxjgI4A_/view?usp=sharing" aria-label="Materiali — Lezione del 25 novembre" title="Materiali — Lezione del 25 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
@@ -238,7 +237,7 @@
 </tr>
 <tr data-date="2026-12-01">
 <td class="data-cell" headers="cal-data">Martedì 1 dicembre</td>
-<td class="argomento-cell" headers="cal-argomento">Modelli di propaganda</td>
+<td class="argomento-cell" headers="cal-argomento">Sociolinguistica</td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 1 dicembre — non disponibili" title="Slide — Martedì 1 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
@@ -271,7 +270,7 @@
 </tr>
 <tr data-date="2026-12-09">
 <td class="data-cell" headers="cal-data">Mercoledì 9 dicembre</td>
-<td class="argomento-cell" headers="cal-argomento">Bias e ragionamento</td>
+<td class="argomento-cell" headers="cal-argomento">Modelli di propaganda</td>
 <td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Mercoledì 9 dicembre — non disponibili" title="Slide — Mercoledì 9 dicembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>

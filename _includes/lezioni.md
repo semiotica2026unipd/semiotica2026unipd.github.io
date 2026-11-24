@@ -206,12 +206,14 @@ Martedì 17 novembre 2026
 
 ::: {.lesson-entry}
 ::: {.lesson-date}
-Lunedì 23 novembre 2026
+Lunedì 23 novembre e Martedì 24 novembre 2026
 :::
 
-## Lezione del 23 novembre. Il significato della musica {#musica}
+## Lezioni del 23 e 24 novembre {#musica}
 
+Lunedì 23 novembre: Il significato della musica
 
+Martedì 24 novembre: Il significato della musica
 
 - [Slide – Il significato della musica](https://drive.google.com/file/d/16pRAtzGFPs30VT_4wjw1ZmnUJCH28iu7/view?usp=sharing)
 
@@ -219,10 +221,10 @@ Lunedì 23 novembre 2026
 
 ::: {.lesson-entry}
 ::: {.lesson-date}
-Martedì 24 novembre 2026
+Mercoledì 25 novembre 2026
 :::
 
-## Lezione del 24 novembre. Comunicazione animale {#comunicazione-animale}
+## Lezione del 25 novembre. Comunicazione animale {#comunicazione-animale}
 
 
 
