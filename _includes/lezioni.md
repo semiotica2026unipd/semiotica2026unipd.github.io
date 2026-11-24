@@ -74,6 +74,7 @@ Lunedì 19 ottobre 2026
 
 
 - [Slide di sintassi — presentazione HTML con video](materiali/sintassi-1.html)
+- [Dispensa: Sintassi](https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing)
 
 :::
 
@@ -89,6 +90,7 @@ Martedì 20 ottobre 2026
 
 - [Esercizio sugli alberi visto in classe il 20 ottobre — PDF](https://tinyurl.com/esercizioalberi)
 - [Soluzione dell’esercizio sugli alberi del 20 ottobre — PDF](https://drive.google.com/file/d/1PawC742F4GaFXpb-uW4-TcVRSyoh1OxY/view?usp=sharing)
+- [Dispensa: Sintassi](https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing)
 
 :::
 
@@ -102,6 +104,7 @@ Mercoledì 21 ottobre 2026
 
 
 - [PDF delle slide — Sintassi: domande e alberi; per leggere Moro](https://drive.google.com/file/d/1aiBLTNBZE9Gcpas7XxRTwjRlVZAQRqUm/view?usp=sharing)
+- [Dispensa: Sintassi](https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing)
 
 :::
 
@@ -115,6 +118,7 @@ Martedì 27 ottobre 2026
 
 
 - [PDF delle slide — Sintassi e acquisizione del linguaggio](https://drive.google.com/file/d/1rsCoV4SEagmQvMK1otWwAOqEWAu_Z3Ax/view?usp=sharing)
+- [Dispensa: Sintassi](https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing)
 
 :::
 

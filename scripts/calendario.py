@@ -16,6 +16,10 @@ HANDOUTS = {
     '2026-10-06': ('Presupposizioni', 'https://drive.google.com/file/d/16_lKXkUUlFYdpv10V5424agYixQkKI1U/view?usp=sharing'),
     '2026-10-07': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
     '2026-10-12': ('Fonetica e fonologia', 'https://drive.google.com/file/d/1VSAiWJR47NwWqO8ea8SnKoOlh4Zw1bGx/view?usp=sharing'),
+    '2026-10-19': ('Sintassi', 'https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing'),
+    '2026-10-20': ('Sintassi', 'https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing'),
+    '2026-10-21': ('Sintassi', 'https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing'),
+    '2026-10-27': ('Sintassi', 'https://drive.google.com/file/d/1onRYSO_3iR3xDVc-IYt6A206Kf-RRslL/view?usp=sharing'),
 }
 with (ROOT/'_data/calendario.csv').open(encoding='utf-8',newline='') as f:
     events = sorted(csv.DictReader(f),key=lambda row:row['data'] or '9999-12-31')
