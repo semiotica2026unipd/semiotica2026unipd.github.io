@@ -216,3 +216,16 @@ Lunedì 23 novembre 2026
 - [Slide – Il significato della musica](https://drive.google.com/file/d/16pRAtzGFPs30VT_4wjw1ZmnUJCH28iu7/view?usp=sharing)
 
 :::
+
+::: {.lesson-entry}
+::: {.lesson-date}
+Martedì 24 novembre 2026
+:::
+
+## Lezione del 24 novembre. Comunicazione animale {#comunicazione-animale}
+
+
+
+- [Slide – Comunicazione animale](https://drive.google.com/file/d/1zCPoVnuXYmouK7brsB51P_10XxjgI4A_/view?usp=sharing)
+
+:::

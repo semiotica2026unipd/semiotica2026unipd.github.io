@@ -214,7 +214,7 @@
 <tr data-date="2026-11-24">
 <td class="data-cell" headers="cal-data">Martedì 24 novembre</td>
 <td class="argomento-cell" headers="cal-argomento">Comunicazione animale</td>
-<td class="slides-cell" headers="cal-slides"><span class="material-icon unavailable" role="img" aria-label="Slide — Martedì 24 novembre — non disponibili" title="Slide — Martedì 24 novembre — non disponibili"><span class="bi bi-easel" aria-hidden="true"></span></span></td>
+<td class="slides-cell" headers="cal-slides"><a class="material-icon" href="https://drive.google.com/file/d/1zCPoVnuXYmouK7brsB51P_10XxjgI4A_/view?usp=sharing" aria-label="Materiali — Lezione del 24 novembre" title="Materiali — Lezione del 24 novembre"><span class="bi bi-easel" aria-hidden="true"></span></a></td>
 <td class="dispensa-cell" headers="cal-dispensa"><span class="material-icon unavailable" role="img" aria-label="Dispensa non disponibile" title="Dispensa non disponibile"><span class="bi bi-file-earmark-pdf" aria-hidden="true"></span></span></td>
 <td class="esercizi-cell" headers="cal-esercizi"></td>
 <td class="compiti-cell" headers="cal-compiti"></td>
